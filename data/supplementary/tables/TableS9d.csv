@@ -1,0 +1,28 @@
+﻿Measure,Contrast,Estimate [95% CI],Holm P
+Enemy missing,KR−NA Diamond−Iron,"-0.709 [-0.778, -0.639]",<0.001
+Enemy missing,KR−EUW Diamond−Iron,"-0.546 [-0.613, -0.478]",<0.001
+Enemy missing,EUW−NA Diamond−Iron,"-0.163 [-0.226, -0.098]",<0.001
+Enemy vision,KR−NA Diamond−Iron,"-0.052 [-0.102, -0.001]",0.246
+Enemy vision,KR−EUW Diamond−Iron,"-0.153 [-0.204, -0.099]",<0.001
+Enemy vision,EUW−NA Diamond−Iron,"0.101 [0.048, 0.154]",0.002
+Command/attention,KR−NA Diamond−Iron,"0.914 [0.828, 1.003]",<0.001
+Command/attention,KR−EUW Diamond−Iron,"0.849 [0.763, 0.939]",<0.001
+Command/attention,EUW−NA Diamond−Iron,"0.065 [-0.014, 0.141]",0.333
+Need vision,KR−NA Diamond−Iron,"-0.077 [-0.088, -0.068]",<0.001
+Need vision,KR−EUW Diamond−Iron,"-0.064 [-0.075, -0.053]",<0.001
+Need vision,EUW−NA Diamond−Iron,"-0.013 [-0.024, -0.005]",0.051
+Assist me,KR−NA Diamond−Iron,"-0.308 [-0.361, -0.263]",<0.001
+Assist me,KR−EUW Diamond−Iron,"-0.291 [-0.342, -0.236]",<0.001
+Assist me,EUW−NA Diamond−Iron,"-0.016 [-0.070, 0.036]",1.000
+On my way,KR−NA Diamond−Iron,"-0.692 [-0.816, -0.562]",<0.001
+On my way,KR−EUW Diamond−Iron,"-0.519 [-0.643, -0.379]",<0.001
+On my way,EUW−NA Diamond−Iron,"-0.173 [-0.308, -0.045]",0.058
+Get back,KR−NA Diamond−Iron,"0.114 [0.059, 0.171]",<0.001
+Get back,KR−EUW Diamond−Iron,"0.161 [0.106, 0.223]",<0.001
+Get back,EUW−NA Diamond−Iron,"-0.047 [-0.096, 0.001]",0.266
+Push,KR−NA Diamond−Iron,"-0.079 [-0.088, -0.072]",<0.001
+Push,KR−EUW Diamond−Iron,"-0.125 [-0.136, -0.115]",<0.001
+Push,EUW−NA Diamond−Iron,"0.046 [0.034, 0.059]",<0.001
+All in,KR−NA Diamond−Iron,"-0.120 [-0.141, -0.098]",<0.001
+All in,KR−EUW Diamond−Iron,"-0.129 [-0.149, -0.107]",<0.001
+All in,EUW−NA Diamond−Iron,"0.009 [-0.018, 0.034]",1.000

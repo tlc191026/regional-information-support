@@ -1,0 +1,163 @@
+﻿Measure,Contrast,Estimate [95% CI],Holm P
+Enemy missing,NA Bronze-Iron,"0.348 [0.313, 0.382]",<0.001
+Enemy missing,NA Silver-Bronze,"0.261 [0.224, 0.302]",<0.001
+Enemy missing,NA Gold-Silver,"0.170 [0.125, 0.213]",<0.001
+Enemy missing,NA Platinum-Gold,"0.156 [0.111, 0.199]",<0.001
+Enemy missing,NA Emerald-Platinum,"0.169 [0.115, 0.219]",<0.001
+Enemy missing,NA Diamond-Emerald,"0.163 [0.109, 0.220]",<0.001
+Enemy missing,EUW Bronze-Iron,"0.419 [0.384, 0.456]",<0.001
+Enemy missing,EUW Silver-Bronze,"0.173 [0.132, 0.209]",<0.001
+Enemy missing,EUW Gold-Silver,"0.101 [0.062, 0.142]",<0.001
+Enemy missing,EUW Platinum-Gold,"0.091 [0.050, 0.133]",0.004
+Enemy missing,EUW Emerald-Platinum,"0.117 [0.069, 0.163]",<0.001
+Enemy missing,EUW Diamond-Emerald,"0.205 [0.154, 0.254]",<0.001
+Enemy missing,KR Bronze-Iron,"0.279 [0.232, 0.326]",<0.001
+Enemy missing,KR Silver-Bronze,"0.039 [-0.009, 0.081]",1.000
+Enemy missing,KR Gold-Silver,"-0.015 [-0.060, 0.030]",1.000
+Enemy missing,KR Platinum-Gold,"0.042 [-0.002, 0.090]",1.000
+Enemy missing,KR Emerald-Platinum,"0.080 [0.028, 0.130]",0.080
+Enemy missing,KR Diamond-Emerald,"0.135 [0.088, 0.186]",<0.001
+Enemy vision,NA Bronze-Iron,"0.145 [0.127, 0.165]",<0.001
+Enemy vision,NA Silver-Bronze,"0.211 [0.187, 0.236]",<0.001
+Enemy vision,NA Gold-Silver,"0.160 [0.129, 0.188]",<0.001
+Enemy vision,NA Platinum-Gold,"0.130 [0.097, 0.162]",<0.001
+Enemy vision,NA Emerald-Platinum,"0.161 [0.121, 0.201]",<0.001
+Enemy vision,NA Diamond-Emerald,"0.133 [0.090, 0.180]",<0.001
+Enemy vision,EUW Bronze-Iron,"0.142 [0.123, 0.162]",<0.001
+Enemy vision,EUW Silver-Bronze,"0.231 [0.201, 0.258]",<0.001
+Enemy vision,EUW Gold-Silver,"0.177 [0.142, 0.213]",<0.001
+Enemy vision,EUW Platinum-Gold,"0.128 [0.085, 0.170]",<0.001
+Enemy vision,EUW Emerald-Platinum,"0.147 [0.103, 0.192]",<0.001
+Enemy vision,EUW Diamond-Emerald,"0.216 [0.168, 0.263]",<0.001
+Enemy vision,KR Bronze-Iron,"0.263 [0.243, 0.283]",<0.001
+Enemy vision,KR Silver-Bronze,"0.177 [0.148, 0.204]",<0.001
+Enemy vision,KR Gold-Silver,"0.126 [0.094, 0.161]",<0.001
+Enemy vision,KR Platinum-Gold,"0.109 [0.072, 0.146]",<0.001
+Enemy vision,KR Emerald-Platinum,"0.124 [0.078, 0.166]",<0.001
+Enemy vision,KR Diamond-Emerald,"0.089 [0.037, 0.134]",0.020
+Command/attention,NA Bronze-Iron,"0.055 [0.008, 0.102]",0.820
+Command/attention,NA Silver-Bronze,"0.118 [0.072, 0.163]",<0.001
+Command/attention,NA Gold-Silver,"0.143 [0.097, 0.190]",<0.001
+Command/attention,NA Platinum-Gold,"0.201 [0.150, 0.248]",<0.001
+Command/attention,NA Emerald-Platinum,"0.198 [0.141, 0.252]",<0.001
+Command/attention,NA Diamond-Emerald,"0.190 [0.133, 0.247]",<0.001
+Command/attention,EUW Bronze-Iron,"0.159 [0.113, 0.209]",<0.001
+Command/attention,EUW Silver-Bronze,"0.195 [0.144, 0.243]",<0.001
+Command/attention,EUW Gold-Silver,"0.154 [0.102, 0.205]",<0.001
+Command/attention,EUW Platinum-Gold,"0.097 [0.043, 0.146]",0.016
+Command/attention,EUW Emerald-Platinum,"0.167 [0.113, 0.219]",<0.001
+Command/attention,EUW Diamond-Emerald,"0.196 [0.137, 0.252]",<0.001
+Command/attention,KR Bronze-Iron,"0.285 [0.230, 0.337]",<0.001
+Command/attention,KR Silver-Bronze,"0.407 [0.354, 0.460]",<0.001
+Command/attention,KR Gold-Silver,"0.315 [0.250, 0.375]",<0.001
+Command/attention,KR Platinum-Gold,"0.288 [0.220, 0.355]",<0.001
+Command/attention,KR Emerald-Platinum,"0.227 [0.156, 0.305]",<0.001
+Command/attention,KR Diamond-Emerald,"0.296 [0.212, 0.379]",<0.001
+Need vision,NA Bronze-Iron,"0.014 [0.007, 0.024]",0.016
+Need vision,NA Silver-Bronze,"-0.006 [-0.015, 0.001]",1.000
+Need vision,NA Gold-Silver,"0.005 [-0.000, 0.010]",1.000
+Need vision,NA Platinum-Gold,"0.002 [-0.003, 0.008]",1.000
+Need vision,NA Emerald-Platinum,"0.013 [0.007, 0.019]",0.004
+Need vision,NA Diamond-Emerald,"0.010 [0.003, 0.016]",0.203
+Need vision,EUW Bronze-Iron,"0.002 [-0.005, 0.008]",1.000
+Need vision,EUW Silver-Bronze,"-0.005 [-0.011, 0.001]",1.000
+Need vision,EUW Gold-Silver,"0.007 [0.000, 0.015]",1.000
+Need vision,EUW Platinum-Gold,"0.001 [-0.007, 0.009]",1.000
+Need vision,EUW Emerald-Platinum,"0.003 [-0.003, 0.010]",1.000
+Need vision,EUW Diamond-Emerald,"0.017 [0.011, 0.024]",<0.001
+Need vision,KR Bronze-Iron,"-0.036 [-0.042, -0.030]",<0.001
+Need vision,KR Silver-Bronze,"-0.004 [-0.011, 0.002]",1.000
+Need vision,KR Gold-Silver,"-0.002 [-0.009, 0.005]",1.000
+Need vision,KR Platinum-Gold,"0.001 [-0.007, 0.008]",1.000
+Need vision,KR Emerald-Platinum,"-0.003 [-0.010, 0.004]",1.000
+Need vision,KR Diamond-Emerald,"0.006 [-0.001, 0.013]",1.000
+Assist me,NA Bronze-Iron,"0.145 [0.113, 0.178]",<0.001
+Assist me,NA Silver-Bronze,"0.081 [0.049, 0.113]",<0.001
+Assist me,NA Gold-Silver,"0.050 [0.018, 0.080]",0.086
+Assist me,NA Platinum-Gold,"0.102 [0.068, 0.134]",<0.001
+Assist me,NA Emerald-Platinum,"0.059 [0.025, 0.096]",0.069
+Assist me,NA Diamond-Emerald,"0.087 [0.050, 0.122]",<0.001
+Assist me,EUW Bronze-Iron,"0.199 [0.164, 0.235]",<0.001
+Assist me,EUW Silver-Bronze,"0.075 [0.040, 0.110]",0.003
+Assist me,EUW Gold-Silver,"0.040 [0.003, 0.077]",1.000
+Assist me,EUW Platinum-Gold,"0.033 [-0.007, 0.072]",1.000
+Assist me,EUW Emerald-Platinum,"0.049 [0.007, 0.088]",0.700
+Assist me,EUW Diamond-Emerald,"0.110 [0.072, 0.151]",<0.001
+Assist me,KR Bronze-Iron,"0.044 [0.012, 0.075]",0.446
+Assist me,KR Silver-Bronze,"0.033 [0.001, 0.064]",1.000
+Assist me,KR Gold-Silver,"0.007 [-0.025, 0.038]",1.000
+Assist me,KR Platinum-Gold,"0.034 [-0.001, 0.067]",1.000
+Assist me,KR Emerald-Platinum,"0.039 [0.006, 0.073]",0.951
+Assist me,KR Diamond-Emerald,"0.059 [0.023, 0.093]",0.065
+On my way,NA Bronze-Iron,"0.590 [0.534, 0.644]",<0.001
+On my way,NA Silver-Bronze,"0.441 [0.376, 0.505]",<0.001
+On my way,NA Gold-Silver,"0.356 [0.286, 0.423]",<0.001
+On my way,NA Platinum-Gold,"0.438 [0.361, 0.521]",<0.001
+On my way,NA Emerald-Platinum,"0.472 [0.378, 0.568]",<0.001
+On my way,NA Diamond-Emerald,"0.556 [0.450, 0.666]",<0.001
+On my way,EUW Bronze-Iron,"0.647 [0.591, 0.713]",<0.001
+On my way,EUW Silver-Bronze,"0.357 [0.288, 0.421]",<0.001
+On my way,EUW Gold-Silver,"0.362 [0.289, 0.437]",<0.001
+On my way,EUW Platinum-Gold,"0.269 [0.194, 0.346]",<0.001
+On my way,EUW Emerald-Platinum,"0.450 [0.359, 0.536]",<0.001
+On my way,EUW Diamond-Emerald,"0.598 [0.485, 0.714]",<0.001
+On my way,KR Bronze-Iron,"0.605 [0.533, 0.670]",<0.001
+On my way,KR Silver-Bronze,"0.364 [0.284, 0.438]",<0.001
+On my way,KR Gold-Silver,"0.226 [0.147, 0.309]",<0.001
+On my way,KR Platinum-Gold,"0.251 [0.161, 0.338]",<0.001
+On my way,KR Emerald-Platinum,"0.376 [0.272, 0.473]",<0.001
+On my way,KR Diamond-Emerald,"0.341 [0.236, 0.451]",<0.001
+Get back,NA Bronze-Iron,"0.004 [-0.024, 0.032]",1.000
+Get back,NA Silver-Bronze,"0.035 [0.008, 0.066]",0.460
+Get back,NA Gold-Silver,"0.061 [0.033, 0.089]",0.001
+Get back,NA Platinum-Gold,"0.070 [0.039, 0.098]",<0.001
+Get back,NA Emerald-Platinum,"0.086 [0.057, 0.117]",<0.001
+Get back,NA Diamond-Emerald,"0.088 [0.050, 0.125]",<0.001
+Get back,EUW Bronze-Iron,"-0.010 [-0.042, 0.022]",1.000
+Get back,EUW Silver-Bronze,"0.014 [-0.016, 0.043]",1.000
+Get back,EUW Gold-Silver,"0.065 [0.035, 0.095]",0.001
+Get back,EUW Platinum-Gold,"0.038 [0.007, 0.071]",0.700
+Get back,EUW Emerald-Platinum,"0.082 [0.050, 0.115]",<0.001
+Get back,EUW Diamond-Emerald,"0.107 [0.069, 0.145]",<0.001
+Get back,KR Bronze-Iron,"0.090 [0.051, 0.126]",<0.001
+Get back,KR Silver-Bronze,"0.069 [0.031, 0.108]",0.017
+Get back,KR Gold-Silver,"0.082 [0.043, 0.121]",0.004
+Get back,KR Platinum-Gold,"0.024 [-0.016, 0.065]",1.000
+Get back,KR Emerald-Platinum,"0.074 [0.028, 0.118]",0.060
+Get back,KR Diamond-Emerald,"0.119 [0.069, 0.167]",<0.001
+Push,NA Bronze-Iron,"0.011 [0.006, 0.016]",<0.001
+Push,NA Silver-Bronze,"0.001 [-0.004, 0.005]",1.000
+Push,NA Gold-Silver,"0.010 [0.005, 0.016]",0.020
+Push,NA Platinum-Gold,"0.011 [0.004, 0.017]",0.054
+Push,NA Emerald-Platinum,"0.020 [0.014, 0.028]",<0.001
+Push,NA Diamond-Emerald,"0.018 [0.010, 0.026]",0.001
+Push,EUW Bronze-Iron,"0.010 [0.005, 0.015]",0.011
+Push,EUW Silver-Bronze,"0.005 [-0.000, 0.010]",1.000
+Push,EUW Gold-Silver,"0.010 [0.003, 0.016]",0.133
+Push,EUW Platinum-Gold,"0.019 [0.011, 0.028]",<0.001
+Push,EUW Emerald-Platinum,"0.030 [0.020, 0.039]",<0.001
+Push,EUW Diamond-Emerald,"0.043 [0.032, 0.055]",<0.001
+Push,KR Bronze-Iron,"-0.006 [-0.010, -0.002]",0.065
+Push,KR Silver-Bronze,"-0.004 [-0.007, -0.002]",0.080
+Push,KR Gold-Silver,"-0.005 [-0.007, -0.002]",0.003
+Push,KR Platinum-Gold,"0.001 [-0.001, 0.003]",1.000
+Push,KR Emerald-Platinum,"0.002 [-0.000, 0.005]",1.000
+Push,KR Diamond-Emerald,"0.003 [0.001, 0.006]",0.710
+All in,NA Bronze-Iron,"-0.007 [-0.020, 0.007]",1.000
+All in,NA Silver-Bronze,"0.001 [-0.011, 0.012]",1.000
+All in,NA Gold-Silver,"0.011 [-0.000, 0.022]",1.000
+All in,NA Platinum-Gold,"0.018 [0.006, 0.031]",0.235
+All in,NA Emerald-Platinum,"0.047 [0.032, 0.062]",<0.001
+All in,NA Diamond-Emerald,"0.056 [0.037, 0.076]",<0.001
+All in,EUW Bronze-Iron,"-0.010 [-0.022, 0.002]",1.000
+All in,EUW Silver-Bronze,"-0.012 [-0.022, -0.001]",1.000
+All in,EUW Gold-Silver,"0.021 [0.010, 0.035]",0.028
+All in,EUW Platinum-Gold,"0.025 [0.010, 0.039]",0.053
+All in,EUW Emerald-Platinum,"0.039 [0.022, 0.056]",<0.001
+All in,EUW Diamond-Emerald,"0.070 [0.050, 0.090]",<0.001
+All in,KR Bronze-Iron,"-0.023 [-0.031, -0.014]",<0.001
+All in,KR Silver-Bronze,"-0.006 [-0.015, 0.003]",1.000
+All in,KR Gold-Silver,"-0.004 [-0.012, 0.005]",1.000
+All in,KR Platinum-Gold,"0.012 [0.003, 0.021]",0.406
+All in,KR Emerald-Platinum,"0.012 [0.001, 0.022]",0.995
+All in,KR Diamond-Emerald,"0.013 [0.003, 0.024]",0.541

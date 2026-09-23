@@ -1,0 +1,11 @@
+﻿Quantity,Value
+Training matches in the prediction analysis,"1,491,210"
+Test matches in the prediction analysis,"608,850"
+Training matches with complete participant payloads,"1,485,294"
+Test matches with complete participant payloads,"606,469"
+Unique participants in audited training matches,"4,040,669"
+Unique participants in audited test matches,"2,623,928"
+Participants present in both audited sets,"2,018,474"
+Audited test participants also present in training (%),76.93
+Audited test matches with any participant overlap,"606,288"
+Audited test matches with any participant overlap (%),99.97

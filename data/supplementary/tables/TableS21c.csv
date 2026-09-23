@@ -1,0 +1,12 @@
+﻿Variable,Record and timing,Contrast or use
+Gold,Sum of cumulative gold across the five team members in the window-end frame,Blue minus red; game-state adjustment
+Experience,Sum of experience across the five team members in the window-end frame,Blue minus red; game-state adjustment
+Level,Sum of levels across the five team members in the window-end frame,Blue minus red; game-state adjustment
+Early kills,Kill events at or before the cut-off,Blue minus red; game-state adjustment
+Early neutral objectives,Neutral-objective kills at or before the cut-off,Blue minus red; game-state adjustment
+Early turret plates,Turret-plate events at or before the cut-off,Blue minus red; game-state adjustment
+Early assists,Assisting-participant counts in early kill events,Blue minus red; baseline predictor in holdout validation
+"Subsequent neutral objectives, building objectives and kills",Event counts strictly after the cut-off,Blue minus red for each measure; standardized continuous outcomes
+Subsequent gold growth,Final cumulative gold minus gold at the cut-off,Blue minus red in growth; standardized continuous outcome
+Subsequent champion-damage growth,Final cumulative champion damage minus damage at the cut-off,Blue minus red in growth; standardized continuous outcome
+Final win,Winning team recorded at match end,"Blue win = 1, red win = 0; logistic-regression outcome"

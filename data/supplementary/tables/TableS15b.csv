@@ -1,0 +1,16 @@
+﻿Specification,OR [95% CI],Matches,BH q
+Strict 10-min cut-off,"1.101 [1.098, 1.105]","2,210,949",<0.001
+15-min window,"1.106 [1.103, 1.110]","2,080,676",<0.001
+Purchases net of reversals,"1.100 [1.097, 1.104]","2,210,921",<0.001
+First assignable objective,"1.100 [1.097, 1.104]","2,217,022",<0.001
+Omission of sampling tier,"1.100 [1.097, 1.103]","2,210,921",<0.001
+Adjustment for full-match duration,"1.100 [1.097, 1.103]","2,210,921",<0.001
+Region–tier balancing,"1.099 [1.095, 1.103]","1,773,618",<0.001
+Coverage probability weighting,"1.100 [1.097, 1.103]","2,210,921",<0.001
+All participants disjoint across matches,"1.096 [1.080, 1.113]","85,451",<0.001
+"Previously covered matches, all tiers","1.103 [1.099, 1.107]","1,386,633",<0.001
+"Previously covered matches, Iron–Gold","1.105 [1.100, 1.109]","1,273,593",<0.001
+"Full available sample, previous common scale","1.104 [1.100, 1.107]","2,210,921",<0.001
+Newly available matches,"1.100 [1.094, 1.105]","824,288",<0.001
+"Full available sample, Iron–Gold","1.101 [1.097, 1.105]","1,275,770",<0.001
+"Full available sample, Platinum–Diamond","1.098 [1.093, 1.103]","935,151",<0.001

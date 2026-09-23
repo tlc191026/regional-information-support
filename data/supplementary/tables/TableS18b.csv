@@ -1,0 +1,6 @@
+﻿Outcome,Standardized β [95% CI],Matches,BH q
+Subsequent neutral-objective difference,"0.040 [0.039, 0.042]","2,223,546",<0.001
+Subsequent building-objective difference,"0.015 [0.014, 0.016]","2,223,546",<0.001
+Subsequent kill difference,"0.027 [0.026, 0.029]","2,223,546",<0.001
+Subsequent gold-growth difference,"0.017 [0.016, 0.018]","2,223,546",<0.001
+Subsequent champion-damage-growth difference,"0.037 [0.036, 0.039]","2,223,546",<0.001

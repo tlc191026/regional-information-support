@@ -1,0 +1,11 @@
+﻿Variable,Event or field,Inclusion and attribution
+Valid ward placement,WARD_PLACED; creatorId,"YELLOW_TRINKET, BLUE_TRINKET, SIGHT_WARD and CONTROL_WARD only; attributed to the placing player’s team"
+Valid ward clearing,WARD_KILL; killerId,The same ward types as for placement; attributed to the clearing player’s team
+Excluded ward types,wardType,"UNDEFINED, TEEMO_MUSHROOM and other non-target types are excluded from maintenance counts"
+Control ward purchases,ITEM_PURCHASED; itemId,itemId = 2055; attributed to the purchasing player’s team
+Purchase reversals,"ITEM_UNDO; beforeId, afterId",Subtract 1 when beforeId = 2055 and add 1 when afterId = 2055; used only for net-purchase sensitivity analyses
+Team assignment,participantId; teamId,Participant IDs 1–5 map to team 100 (blue) and 6–10 to team 200 (red); checked against match details
+Neutral-objective types,ELITE_MONSTER_KILL; monsterType,"DRAGON, RIFTHERALD, BARON_NASHOR, HORDE and ATAKHAN; counted as recorded events"
+Primary objective ownership,killerTeamId; timestamp,The earliest post-window event must be assigned to team 100 or 200. Simultaneous events assigned to the same team are retained; opposing-team ties and unassigned events are excluded separately
+Alternative objective ownership,killerTeamId; timestamp,"Retain events assignable to team 100 or 200, then select the earliest post-window event"
+Temporal boundary,timestamp; state-frame time,Events at or before the actual cut-off are early; events after it are subsequent. Strict specifications use the nominal cut-off

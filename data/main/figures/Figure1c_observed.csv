@@ -1,0 +1,3 @@
+﻿matrix,test,statistic,n_allocations,n_at_least_observed,p_exact,null_q025,null_q975,tail,interpretation,p_holm_primary_two_tests
+player_region_centered_Pearson,maintenance_vs_signalling,0.1983699515307375,220,1,0.004545454545454545,-0.05808598833925664,0.09799709840531128,upper; ties included; exhaustive enumeration,indicator-label structure diagnostic; not a player-sampling P value,0.00909090909090909
+player_region_centered_Pearson,signal_functional_subgroups,-0.007012924637993911,1260,693,0.55,-0.05857565536480301,0.07545728031103519,upper; ties included; exhaustive enumeration,indicator-label structure diagnostic; not a player-sampling P value,0.55

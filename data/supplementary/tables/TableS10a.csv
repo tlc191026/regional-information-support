@@ -1,0 +1,10 @@
+﻿Measure,Region,Local change [95% CI],Holm P
+Overall information investment,NA,"−0.005 [−0.032, 0.021]",1.000
+Overall information investment,EUW,"−0.038 [−0.066, −0.012]",0.221
+Overall information investment,KR,"−0.010 [−0.036, 0.018]",1.000
+Maintenance,NA,"−0.022 [−0.044, 0.001]",1.000
+Maintenance,EUW,"−0.049 [−0.073, −0.025]",0.004
+Maintenance,KR,"−0.033 [−0.057, −0.007]",0.358
+Team signalling,NA,"0.011 [−0.032, 0.053]",1.000
+Team signalling,EUW,"−0.027 [−0.073, 0.014]",1.000
+Team signalling,KR,"0.013 [−0.028, 0.058]",1.000

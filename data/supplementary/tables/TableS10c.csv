@@ -1,0 +1,46 @@
+﻿Measure,Contrast,Estimate [95% CI],Holm P
+Overall information investment,NA Bronze,"-0.063 [-0.089, -0.038]",<0.001
+Overall information investment,NA Silver,"-0.049 [-0.075, -0.025]",0.004
+Overall information investment,NA Gold,"-0.005 [-0.032, 0.021]",1.000
+Overall information investment,NA Platinum,"-0.007 [-0.033, 0.021]",1.000
+Overall information investment,NA Emerald,"-0.000 [-0.032, 0.032]",1.000
+Overall information investment,EUW Bronze,"-0.079 [-0.104, -0.056]",<0.001
+Overall information investment,EUW Silver,"-0.060 [-0.084, -0.033]",<0.001
+Overall information investment,EUW Gold,"-0.038 [-0.066, -0.012]",0.221
+Overall information investment,EUW Platinum,"0.024 [-0.004, 0.051]",1.000
+Overall information investment,EUW Emerald,"0.023 [-0.007, 0.053]",1.000
+Overall information investment,KR Bronze,"-0.100 [-0.126, -0.075]",<0.001
+Overall information investment,KR Silver,"-0.063 [-0.088, -0.037]",<0.001
+Overall information investment,KR Gold,"-0.010 [-0.036, 0.018]",1.000
+Overall information investment,KR Platinum,"-0.001 [-0.030, 0.029]",1.000
+Overall information investment,KR Emerald,"0.026 [-0.005, 0.056]",1.000
+Maintenance,NA Bronze,"-0.081 [-0.107, -0.057]",<0.001
+Maintenance,NA Silver,"-0.080 [-0.104, -0.057]",<0.001
+Maintenance,NA Gold,"-0.022 [-0.044, 0.001]",1.000
+Maintenance,NA Platinum,"-0.035 [-0.058, -0.012]",0.115
+Maintenance,NA Emerald,"0.004 [-0.018, 0.029]",1.000
+Maintenance,EUW Bronze,"-0.077 [-0.104, -0.054]",<0.001
+Maintenance,EUW Silver,"-0.110 [-0.134, -0.085]",<0.001
+Maintenance,EUW Gold,"-0.049 [-0.073, -0.025]",0.004
+Maintenance,EUW Platinum,"-0.003 [-0.028, 0.023]",1.000
+Maintenance,EUW Emerald,"-0.013 [-0.040, 0.013]",1.000
+Maintenance,KR Bronze,"-0.162 [-0.187, -0.137]",<0.001
+Maintenance,KR Silver,"-0.088 [-0.114, -0.064]",<0.001
+Maintenance,KR Gold,"-0.033 [-0.057, -0.007]",0.358
+Maintenance,KR Platinum,"-0.015 [-0.041, 0.012]",1.000
+Maintenance,KR Emerald,"0.035 [0.006, 0.064]",0.462
+Team signalling,NA Bronze,"-0.044 [-0.085, -0.006]",0.649
+Team signalling,NA Silver,"-0.017 [-0.058, 0.022]",1.000
+Team signalling,NA Gold,"0.011 [-0.032, 0.053]",1.000
+Team signalling,NA Platinum,"0.020 [-0.021, 0.066]",1.000
+Team signalling,NA Emerald,"-0.004 [-0.057, 0.045]",1.000
+Team signalling,EUW Bronze,"-0.080 [-0.120, -0.044]",0.005
+Team signalling,EUW Silver,"-0.009 [-0.047, 0.033]",1.000
+Team signalling,EUW Gold,"-0.027 [-0.073, 0.014]",1.000
+Team signalling,EUW Platinum,"0.050 [0.004, 0.098]",1.000
+Team signalling,EUW Emerald,"0.060 [0.007, 0.110]",0.649
+Team signalling,KR Bronze,"-0.039 [-0.078, 0.002]",1.000
+Team signalling,KR Silver,"-0.039 [-0.078, 0.003]",1.000
+Team signalling,KR Gold,"0.013 [-0.028, 0.058]",1.000
+Team signalling,KR Platinum,"0.013 [-0.033, 0.059]",1.000
+Team signalling,KR Emerald,"0.017 [-0.030, 0.066]",1.000

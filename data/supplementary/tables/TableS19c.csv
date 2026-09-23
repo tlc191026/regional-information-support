@@ -1,0 +1,7 @@
+﻿Validation,Baseline log-loss,Log-loss with maintenance,Baseline Brier score,Brier score with maintenance
+Focal-player holdout,0.625462,0.624496,0.218089,0.217661
+Temporal holdout,0.695651,0.690315,0.247187,0.245038
+NA held out,0.627519,0.626751,0.219024,0.218688
+EUW held out,0.626339,0.625441,0.218481,0.218079
+KR held out,0.622753,0.621731,0.216861,0.216408
+"Focal-player holdout, sampling tier omitted",0.625638,0.624673,0.218168,0.217740

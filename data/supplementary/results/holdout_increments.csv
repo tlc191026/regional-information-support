@@ -1,0 +1,19 @@
+﻿validation,metric,improvement,ci_low,ci_high,n_test,interval_method
+focal_player_holdout,auc,0.0013836047465022316,0.0012112075780068032,0.001551386417653203,608850,paired stratified match bootstrap; AUC uses one-step placement influence
+focal_player_holdout,log_loss,0.0009664316137477949,0.0008572482799327182,0.0010684121906224284,608850,paired stratified match bootstrap; AUC uses one-step placement influence
+focal_player_holdout,brier,0.00042836904648127847,0.00037795314992482477,0.0004756193625616331,608850,paired stratified match bootstrap; AUC uses one-step placement influence
+no_sampling_tier_holdout,auc,0.0013815050906123005,0.001220030849070697,0.0015505447256432502,608850,paired stratified match bootstrap; AUC uses one-step placement influence
+no_sampling_tier_holdout,log_loss,0.0009648073471577869,0.0008611134959814474,0.0010747909353130533,608850,paired stratified match bootstrap; AUC uses one-step placement influence
+no_sampling_tier_holdout,brier,0.0004275214610761202,0.00038025321064883214,0.0004771434330058703,608850,paired stratified match bootstrap; AUC uses one-step placement influence
+temporal_holdout,auc,0.002721683762465399,0.002580142594207033,0.0028754550247859956,660596,paired stratified match bootstrap; AUC uses one-step placement influence
+temporal_holdout,log_loss,0.00533570422739817,0.005226464901698628,0.005447223917294334,660596,paired stratified match bootstrap; AUC uses one-step placement influence
+temporal_holdout,brier,0.0021495553429329685,0.0021044936626626585,0.002193893517063065,660596,paired stratified match bootstrap; AUC uses one-step placement influence
+heldout_NA1,auc,0.001071715609287427,0.0008989805974277884,0.001247318763296348,701644,paired stratified match bootstrap; AUC uses one-step placement influence
+heldout_NA1,log_loss,0.0007670837910804361,0.0006587424995059146,0.0008767341952865315,701644,paired stratified match bootstrap; AUC uses one-step placement influence
+heldout_NA1,brier,0.0003363727151174343,0.0002865826629222656,0.00038435442300393684,701644,paired stratified match bootstrap; AUC uses one-step placement influence
+heldout_EUW1,auc,0.001334896910452854,0.0011763981278204792,0.0015035202576412045,754672,paired stratified match bootstrap; AUC uses one-step placement influence
+heldout_EUW1,log_loss,0.0008972760336235621,0.0007944063105175699,0.0010046489533453219,754672,paired stratified match bootstrap; AUC uses one-step placement influence
+heldout_EUW1,brier,0.00040219518948059424,0.00035578158549116114,0.0004502445944938214,754672,paired stratified match bootstrap; AUC uses one-step placement influence
+heldout_KR,auc,0.0014427732439709073,0.0013101862983940773,0.0015629803659577993,754605,paired stratified match bootstrap; AUC uses one-step placement influence
+heldout_KR,log_loss,0.001021709641249403,0.0009392988797241652,0.001100621407624718,754605,paired stratified match bootstrap; AUC uses one-step placement influence
+heldout_KR,brier,0.00045312026200860746,0.00041510946201718285,0.0004892856869165706,754605,paired stratified match bootstrap; AUC uses one-step placement influence

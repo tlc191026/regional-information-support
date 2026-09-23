@@ -1,0 +1,55 @@
+﻿Measure,Contrast,Estimate [95% CI],Holm P
+Overall information investment,NA Bronze-Iron,"0.222 [0.207, 0.237]",<0.001
+Overall information investment,NA Silver-Bronze,"0.160 [0.146, 0.175]",<0.001
+Overall information investment,NA Gold-Silver,"0.111 [0.095, 0.125]",<0.001
+Overall information investment,NA Platinum-Gold,"0.106 [0.091, 0.121]",<0.001
+Overall information investment,NA Emerald-Platinum,"0.098 [0.082, 0.115]",<0.001
+Overall information investment,NA Diamond-Emerald,"0.098 [0.081, 0.117]",<0.001
+Overall information investment,EUW Bronze-Iron,"0.247 [0.233, 0.263]",<0.001
+Overall information investment,EUW Silver-Bronze,"0.168 [0.153, 0.181]",<0.001
+Overall information investment,EUW Gold-Silver,"0.108 [0.093, 0.124]",<0.001
+Overall information investment,EUW Platinum-Gold,"0.070 [0.054, 0.086]",<0.001
+Overall information investment,EUW Emerald-Platinum,"0.094 [0.077, 0.111]",<0.001
+Overall information investment,EUW Diamond-Emerald,"0.117 [0.097, 0.135]",<0.001
+Overall information investment,KR Bronze-Iron,"0.271 [0.256, 0.287]",<0.001
+Overall information investment,KR Silver-Bronze,"0.171 [0.156, 0.186]",<0.001
+Overall information investment,KR Gold-Silver,"0.108 [0.093, 0.123]",<0.001
+Overall information investment,KR Platinum-Gold,"0.098 [0.082, 0.114]",<0.001
+Overall information investment,KR Emerald-Platinum,"0.097 [0.080, 0.114]",<0.001
+Overall information investment,KR Diamond-Emerald,"0.123 [0.105, 0.141]",<0.001
+Maintenance,NA Bronze-Iron,"0.264 [0.249, 0.280]",<0.001
+Maintenance,NA Silver-Bronze,"0.183 [0.168, 0.196]",<0.001
+Maintenance,NA Gold-Silver,"0.103 [0.090, 0.116]",<0.001
+Maintenance,NA Platinum-Gold,"0.081 [0.069, 0.094]",<0.001
+Maintenance,NA Emerald-Platinum,"0.046 [0.032, 0.060]",<0.001
+Maintenance,NA Diamond-Emerald,"0.050 [0.037, 0.065]",<0.001
+Maintenance,EUW Bronze-Iron,"0.292 [0.278, 0.308]",<0.001
+Maintenance,EUW Silver-Bronze,"0.215 [0.200, 0.229]",<0.001
+Maintenance,EUW Gold-Silver,"0.104 [0.089, 0.118]",<0.001
+Maintenance,EUW Platinum-Gold,"0.055 [0.041, 0.069]",<0.001
+Maintenance,EUW Emerald-Platinum,"0.052 [0.037, 0.067]",<0.001
+Maintenance,EUW Diamond-Emerald,"0.039 [0.024, 0.054]",<0.001
+Maintenance,KR Bronze-Iron,"0.400 [0.386, 0.414]",<0.001
+Maintenance,KR Silver-Bronze,"0.239 [0.225, 0.253]",<0.001
+Maintenance,KR Gold-Silver,"0.151 [0.136, 0.165]",<0.001
+Maintenance,KR Platinum-Gold,"0.118 [0.103, 0.133]",<0.001
+Maintenance,KR Emerald-Platinum,"0.103 [0.087, 0.119]",<0.001
+Maintenance,KR Diamond-Emerald,"0.138 [0.122, 0.155]",<0.001
+Team signalling,NA Bronze-Iron,"0.181 [0.160, 0.203]",<0.001
+Team signalling,NA Silver-Bronze,"0.137 [0.113, 0.160]",<0.001
+Team signalling,NA Gold-Silver,"0.119 [0.095, 0.141]",<0.001
+Team signalling,NA Platinum-Gold,"0.131 [0.106, 0.153]",<0.001
+Team signalling,NA Emerald-Platinum,"0.150 [0.123, 0.179]",<0.001
+Team signalling,NA Diamond-Emerald,"0.146 [0.116, 0.177]",<0.001
+Team signalling,EUW Bronze-Iron,"0.201 [0.179, 0.225]",<0.001
+Team signalling,EUW Silver-Bronze,"0.121 [0.097, 0.142]",<0.001
+Team signalling,EUW Gold-Silver,"0.112 [0.088, 0.137]",<0.001
+Team signalling,EUW Platinum-Gold,"0.085 [0.057, 0.109]",<0.001
+Team signalling,EUW Emerald-Platinum,"0.135 [0.106, 0.162]",<0.001
+Team signalling,EUW Diamond-Emerald,"0.194 [0.164, 0.225]",<0.001
+Team signalling,KR Bronze-Iron,"0.143 [0.118, 0.165]",<0.001
+Team signalling,KR Silver-Bronze,"0.104 [0.079, 0.127]",<0.001
+Team signalling,KR Gold-Silver,"0.065 [0.042, 0.088]",<0.001
+Team signalling,KR Platinum-Gold,"0.078 [0.052, 0.104]",<0.001
+Team signalling,KR Emerald-Platinum,"0.091 [0.064, 0.118]",<0.001
+Team signalling,KR Diamond-Emerald,"0.108 [0.081, 0.135]",<0.001

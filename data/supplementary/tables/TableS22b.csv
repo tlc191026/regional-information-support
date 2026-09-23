@@ -1,0 +1,4 @@
+﻿Component,1st percentile,99th percentile,Winsorized mean,Winsorized SD
+Ward placement,2.302585093,3.178053830,2.811541370,0.185687058
+Ward clearing,0.000000000,1.945910149,0.895983751,0.569101801
+Control ward purchases,0.000000000,2.079441542,1.088114309,0.578623399

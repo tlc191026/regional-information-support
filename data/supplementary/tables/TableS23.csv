@@ -1,0 +1,20 @@
+﻿Analysis,Composition,Tests,Test and adjustment,Results
+Indicator grouping,Maintenance/signalling and functional ping categories,2,One-sided exact; Holm,Supplementary Table 2
+Primary regional comparisons,9 overall/process contrasts + 3 between-process contrasts,12,Two-sided Wald; Holm,"Supplementary Table 4b, c"
+Individual pings,9 pings × 3 regional contrasts,27,Two-sided Wald; Holm,Supplementary Table 6b
+Alternative overall score,Regional contrasts using 12 equally weighted indicators,3,Two-sided Wald; Holm,Supplementary Table 5a
+Two-way clustering,9 overall/process contrasts + 3 between-process contrasts,12,Two-sided Wald; Holm,Supplementary Table 5a
+Alternative signalling score,Between-process contrasts using 9 equally weighted pings,3,Two-sided Wald; Holm,Supplementary Table 5b
+Composite-score endpoints,3 composite scores × 3 regions,9,Two-sided normal; Holm,Supplementary Table 8a
+Regional contrasts in composite-score endpoints,3 composite scores × 3 regional contrasts,9,Two-sided normal; Holm,Supplementary Table 8b
+Individual-ping endpoints,9 pings × 3 regions,27,Two-sided normal; Holm,Supplementary Table 9c
+Regional contrasts in individual-ping endpoints,9 pings × 3 regional contrasts,27,Two-sided normal; Holm,Supplementary Table 9d
+"Adjacent tiers, composite scores",3 composite scores × 3 regions × 6 intervals,54,Two-sided normal; Holm,Supplementary Table 10b
+"Local changes, composite scores",3 composite scores × 3 regions × 5 interior tiers,45,Two-sided normal; Holm,Supplementary Table 10c
+"Adjacent tiers, individual pings",9 pings × 3 regions × 6 intervals,162,Two-sided normal; Holm,Supplementary Table 10d
+"Local changes, individual pings",9 pings × 3 regions × 5 interior tiers,135,Two-sided normal; Holm,Supplementary Table 10e
+Regional contrasts within positions,3 composite scores × 5 positions × 3 regional contrasts,45,Two-sided normal; Holm,"Supplementary Table 11b, c"
+Early regional differences,3 regional contrasts,3,Two-sided Wald; Holm,Supplementary Table 12
+Minute-specific regional differences,3 behaviours × 3 regional contrasts × 10 intervals,90,Two-sided normal; Holm,Supplementary Table 13b; also Bonferroni simultaneous intervals
+Timeline sensitivity analyses,15 specifications + 8 components + 7 tiers + 42 patches + 3 years + 3 deficit thresholds,78,Two-sided Wald; BH,"Supplementary Table 15, 17c, 18c, 20b, 20d"
+Other subsequent outcomes,1 binary + 5 continuous outcomes,6,Two-sided Wald; BH,"Supplementary Table 18a, b"

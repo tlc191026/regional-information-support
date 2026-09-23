@@ -1,0 +1,2 @@
+﻿predictor,beta,se,ci_low,ci_high,odds_ratio,or_low,or_high,p_value,n_matches,outcome,model,interval_method,region,display_region
+maintenance_diff_z,0.09552095016585807,0.0014899305316150426,0.09267858236159983,0.09847914126681452,1.1002318718326831,1.0971090483918253,1.1034913867219245,0.0,2210921,first_post_neutral_blue,logistic,"1,000 region-by-tier stratified match pairs, one-step score bootstrap",pooled,Pooled

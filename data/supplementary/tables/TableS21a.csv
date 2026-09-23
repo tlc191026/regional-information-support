@@ -1,0 +1,19 @@
+﻿No.,Measure,Analytical role,Recorded behaviour,Raw unit
+1,Ward placement,Maintenance,Number of vision devices placed,Events per min
+2,Ward clearing,Maintenance,Number of opponents’ vision devices cleared,Events per min
+3,Control ward purchases,Maintenance,Number of control wards purchased,Events per min
+4,Enemy missing,Signalling: task-state and attention cues,Cue that an enemy has left a known location,Events per min
+5,Enemy vision,Signalling: task-state and attention cues,Cue indicating enemy vision,Events per min
+6,Command/attention,Signalling: task-state and attention cues,Cue drawing teammates’ attention to a location,Events per min
+7,Need vision,Signalling: coordination requests,Request for vision in an indicated area,Events per min
+8,Assist me,Signalling: coordination requests,Request for assistance,Events per min
+9,On my way,Signalling: action-oriented cues,Cue indicating movement towards a location,Events per min
+10,Push,Signalling: action-oriented cues,Cue to push,Events per min
+11,All in,Signalling: action-oriented cues,Cue to commit to an attack,Events per min
+12,Get back,Signalling: action-oriented cues,Cue to retreat or move back,Events per min
+13,Assists,Performance reference,Number of assists in teammates’ kills,Events per min
+14,Kills,Performance reference,Number of kills,Events per min
+15,Fewer deaths,Performance reference,Number of deaths; reverse-scored in correlation analyses,Events per min
+16,Gold,Performance reference,Total gold earned,Gold per min
+17,Damage,Performance reference,Total damage dealt,Damage units per min
+18,Vision score,Diagnostic indicator,Vision score supplied by the game system,Points per min

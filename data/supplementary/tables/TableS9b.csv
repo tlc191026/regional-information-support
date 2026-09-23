@@ -1,0 +1,10 @@
+﻿Ping type,Regional contrast,Between-region endpoint contrast [95% CI],Holm P
+Get back,KR−NA,"0.114 [0.059, 0.171]",<0.001
+Get back,KR−EUW,"0.161 [0.106, 0.223]",<0.001
+Get back,EUW−NA,"−0.047 [−0.096, 0.001]",0.266
+Push,KR−NA,"−0.079 [−0.088, −0.072]",<0.001
+Push,KR−EUW,"−0.125 [−0.136, −0.115]",<0.001
+Push,EUW−NA,"0.046 [0.034, 0.059]",<0.001
+All in,KR−NA,"−0.120 [−0.141, −0.098]",<0.001
+All in,KR−EUW,"−0.129 [−0.149, −0.107]",<0.001
+All in,EUW−NA,"0.009 [−0.018, 0.034]",1.000

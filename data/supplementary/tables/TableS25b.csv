@@ -1,0 +1,7 @@
+﻿Contrast,Equal functional groups [95% CI],Equal individual pings [95% CI]
+NA Diamond−Iron,"0.863 [0.837, 0.890]","0.888 [0.862, 0.915]"
+EUW Diamond−Iron,"0.848 [0.819, 0.875]","0.877 [0.848, 0.904]"
+KR Diamond−Iron,"0.589 [0.561, 0.615]","0.616 [0.588, 0.642]"
+KR−NA Diamond−Iron,"−0.274 [−0.313, −0.238]","−0.272 [−0.309, −0.234]"
+KR−EUW Diamond−Iron,"−0.260 [−0.299, −0.222]","−0.261 [−0.301, −0.223]"
+EUW−NA Diamond−Iron,"−0.014 [−0.053, 0.022]","−0.010 [−0.048, 0.026]"

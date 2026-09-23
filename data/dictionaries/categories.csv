@@ -1,0 +1,181 @@
+﻿column,value,meaning
+metric,all_in_pings_pm,All in
+metric,assist_me_pings_pm,Assist me
+metric,assists_pm,Assists
+metric,command_pings_pm,Command/attention
+metric,control_wards_bought_pm,Control ward purchases
+metric,deaths_pm,Fewer deaths
+metric,enemy_missing_pings_pm,Enemy missing
+metric,enemy_vision_pings_pm,Enemy vision
+metric,get_back_pings_pm,Get back
+metric,gold_earned_pm,Gold
+metric,kills_pm,Kills
+metric,need_vision_pings_pm,Need vision
+metric,on_my_way_pings_pm,On my way
+metric,push_pings_pm,Push
+metric,total_damage_dealt_pm,Damage
+metric,vision_score_pm,Vision score
+metric,wards_killed_pm,Ward clearing
+metric,wards_placed_pm,Ward placement
+region,EUW,Western Europe
+region,KR,Korean server
+region,NA,North America
+measure,overall,Overall information investment
+measure,maintenance,Shared-information maintenance
+measure,signalling,Team signalling
+level,BRONZE,BRONZE
+level,DIAMOND,DIAMOND
+level,EMERALD,EMERALD
+level,GOLD,GOLD
+level,IRON,IRON
+level,PLATINUM,PLATINUM
+level,SILVER,SILVER
+measure,shared_information_maintenance,shared information maintenance
+measure,team_signalling,team signalling
+measure,get_back_pings_pm,Get back
+measure,push_pings_pm,Push
+measure,all_in_pings_pm,All in
+level,BOTTOM,Bottom lane
+level,JUNGLE,Jungle
+level,MIDDLE,Mid lane
+level,TOP,Top lane
+level,UTILITY,Support
+region,EUW1,Western European server
+region,NA1,North American server
+display_region,EUW,Western Europe
+display_region,KR,Korean server
+display_region,NA,North America
+component,valid_wards_placed,Valid ward placements
+specification,common_tier_patch_reference,common tier patch reference
+component,valid_ward_kills,Valid ward clearing
+component,control_ward_purchases,Control ward purchases
+specification,linear_logit,linear logit
+measure,enemy_missing_pings_pm,Enemy missing
+measure,enemy_vision_pings_pm,Enemy vision
+measure,command_pings_pm,Command/attention
+measure,need_vision_pings_pm,Need vision
+measure,assist_me_pings_pm,Assist me
+measure,on_my_way_pings_pm,On my way
+tier,BRONZE,Bronze
+tier,DIAMOND,Diamond
+tier,EMERALD,Emerald
+tier,GOLD,Gold
+tier,IRON,Iron
+tier,PLATINUM,Platinum
+tier,SILVER,Silver
+model,logistic,logistic
+specification,tier_BRONZE,Separate estimate within sampling tier Bronze
+specification,tier_DIAMOND,Separate estimate within sampling tier Diamond
+specification,tier_EMERALD,Separate estimate within sampling tier Emerald
+specification,tier_GOLD,Separate estimate within sampling tier Gold
+specification,tier_IRON,Separate estimate within sampling tier Iron
+specification,tier_PLATINUM,Separate estimate within sampling tier Platinum
+specification,tier_SILVER,Separate estimate within sampling tier Silver
+outcome,first_post_neutral_blue,Blue acquisition of the first subsequent neutral objective
+predictor,maintenance_diff_z,maintenance diff z
+specification,three_components_simultaneously,three components simultaneously
+predictor,control_ward_purchases_diff_z,control ward purchases diff z
+predictor,valid_ward_kills_diff_z,valid ward kills diff z
+predictor,valid_wards_placed_diff_z,valid wards placed diff z
+specification,add_final_duration,add final duration
+specification,all_ten_participants_disjoint,all ten participants disjoint
+specification,coverage_inverse_probability_weighted,coverage inverse probability weighted
+specification,first_legally_assigned_objective,first legally assigned objective
+specification,omit_sampling_time_tier,omit sampling time tier
+specification,purchase_net_of_undo,purchase net of undo
+specification,region_tier_balanced_matches,region tier balanced matches
+specification,strict_nominal_10min_earlier_state_frame,strict nominal 10min earlier state frame
+specification,window_0_15,window 0 15
+outcome,first_legal_post_neutral_blue,first legal post neutral blue
+specification,patch_14.13,Separate estimate for patch 14.13
+specification,patch_14.14,Separate estimate for patch 14.14
+specification,patch_14.15,Separate estimate for patch 14.15
+specification,patch_14.16,Separate estimate for patch 14.16
+specification,patch_14.17,Separate estimate for patch 14.17
+specification,patch_14.18,Separate estimate for patch 14.18
+specification,patch_14.19,Separate estimate for patch 14.19
+specification,patch_14.20,Separate estimate for patch 14.20
+specification,patch_14.21,Separate estimate for patch 14.21
+specification,patch_14.22,Separate estimate for patch 14.22
+specification,patch_14.23,Separate estimate for patch 14.23
+specification,patch_14.24,Separate estimate for patch 14.24
+specification,patch_15.1,Separate estimate for patch 15.1
+specification,patch_15.10,Separate estimate for patch 15.10
+specification,patch_15.11,Separate estimate for patch 15.11
+specification,patch_15.12,Separate estimate for patch 15.12
+specification,patch_15.13,Separate estimate for patch 15.13
+specification,patch_15.14,Separate estimate for patch 15.14
+specification,patch_15.15,Separate estimate for patch 15.15
+specification,patch_15.16,Separate estimate for patch 15.16
+specification,patch_15.17,Separate estimate for patch 15.17
+specification,patch_15.18,Separate estimate for patch 15.18
+specification,patch_15.19,Separate estimate for patch 15.19
+specification,patch_15.2,Separate estimate for patch 15.2
+specification,patch_15.20,Separate estimate for patch 15.20
+specification,patch_15.21,Separate estimate for patch 15.21
+specification,patch_15.22,Separate estimate for patch 15.22
+specification,patch_15.23,Separate estimate for patch 15.23
+specification,patch_15.24,Separate estimate for patch 15.24
+specification,patch_15.3,Separate estimate for patch 15.3
+specification,patch_15.4,Separate estimate for patch 15.4
+specification,patch_15.5,Separate estimate for patch 15.5
+specification,patch_15.6,Separate estimate for patch 15.6
+specification,patch_15.7,Separate estimate for patch 15.7
+specification,patch_15.8,Separate estimate for patch 15.8
+specification,patch_15.9,Separate estimate for patch 15.9
+specification,patch_16.1,Separate estimate for patch 16.1
+specification,patch_16.2,Separate estimate for patch 16.2
+specification,patch_16.3,Separate estimate for patch 16.3
+specification,patch_16.4,Separate estimate for patch 16.4
+specification,patch_16.5,Separate estimate for patch 16.5
+specification,patch_16.6,Separate estimate for patch 16.6
+measure,maintenance_minus_signalling,maintenance minus signalling
+measure,indicator_equal_weight,indicator equal weight
+region,pooled,pooled
+display_region,Pooled,Pooled
+specification,all_available_Iron_Gold,all available Iron Gold
+specification,all_available_Platinum_Diamond,all available Platinum Diamond
+specification,all_available_common_old_scale,all available common old scale
+specification,calendar_2024,Separate estimate for matches played in 2024
+specification,calendar_2025,Separate estimate for matches played in 2025
+specification,calendar_2026,Separate estimate for matches played in 2026
+specification,component_control_ward_purchases,component control ward purchases
+specification,component_valid_ward_kills,component valid ward kills
+specification,component_valid_wards_placed,component valid wards placed
+specification,deployment_and_purchase,deployment and purchase
+specification,exploratory_comeback_1000,exploratory comeback 1000
+specification,exploratory_comeback_1500,exploratory comeback 1500
+specification,exploratory_comeback_2000,exploratory comeback 2000
+specification,newly_available_matches_only,newly available matches only
+specification,old_Iron_Gold_matches_corrected,old Iron Gold matches corrected
+specification,old_all_timeline_matches_corrected,old all timeline matches corrected
+specification,placement_and_clearing,placement and clearing
+outcome,underdog_win,underdog win
+model,standardized linear,standardized linear
+outcome,blue_win,blue win
+outcome,building_objectives_post_diff,building objectives post diff
+outcome,damage_growth_post_diff,damage growth post diff
+outcome,gold_growth_post_diff,gold growth post diff
+outcome,kills_post_diff,kills post diff
+outcome,neutral_objectives_post_diff,neutral objectives post diff
+model,M3 joint-action proxy,"Baseline with early state, combat, objectives and assists"
+model,M4 shared-information maintenance,Baseline plus early maintenance
+validation,focal_player_holdout,Fixed focal-player holdout
+validation,heldout_EUW1,Held-out region Western European server
+validation,heldout_KR,Held-out region Korean server
+validation,heldout_NA1,Held-out region North American server
+validation,no_sampling_tier_holdout,Focal-player holdout omitting sampling tier
+validation,temporal_holdout,Chronological holdout
+metric,auc,auc
+metric,brier,brier
+metric,log_loss,log loss
+region,All,All regions
+specification,additive,additive
+specification,both_interactions,both interactions
+specification,region_by_position,region by position
+specification,region_by_tier,region by tier
+signal_score,functional_groups,Equal weights across three ping categories
+score,equal_nine_pings,Equal weights across nine ping indicators
+score,functional_groups,Equal weights across three ping categories
+specification,original,original
+specification,original_first_objective_after_60_seconds,original first objective after 60 seconds

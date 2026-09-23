@@ -1,0 +1,2 @@
+# Preserve the byte representation used by the published data checksums.
+data/** -text

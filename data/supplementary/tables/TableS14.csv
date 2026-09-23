@@ -1,0 +1,4 @@
+﻿Region and number of matches,OR [95% CI],Probability at −1 SD (%),Probability at +1 SD (%),Probability difference (percentage points) [95% CI]
+"NA 701,644","1.090 [1.085, 1.096]",47.21,51.00,"3.79 [3.57, 4.00]"
+"EUW 754,672","1.097 [1.092, 1.102]",46.87,50.92,"4.05 [3.84, 4.26]"
+"KR 754,605","1.116 [1.110, 1.122]",46.67,51.48,"4.81 [4.58, 5.04]"
