@@ -1,0 +1,118 @@
+{
+  "raw_prepare": {
+    "scripts": [
+      "manuscript_20260915/03_reproducibility/code/prepare_inputs.py"
+    ],
+    "required_inputs": [
+      "outputs/study0/data/study0_canonical_participant_match_sample.pkl",
+      "exp_20260717/data/canonical_unique_match_metadata.parquet",
+      "exp_20260717/data/context_unresidualized_participant_scores.parquet",
+      "outputs/study1_information_support_validation/data/study1_match_difference_table_scored.parquet"
+    ]
+  },
+  "relationships": {
+    "scripts": [
+      "manuscript_20260915/09_variable_relationships_20260917/code/analyse_relationships.py"
+    ],
+    "required_inputs": [
+      "exp_20260717/data/player_metric_and_process_scores_minimal.parquet"
+    ]
+  },
+  "regional": {
+    "scripts": [
+      "manuscript_20260915/10_overall_and_process_differences_20260918/code/analyse_section.py"
+    ],
+    "required_inputs": [
+      "exp_20260717/data/context_unresidualized_participant_scores.parquet",
+      "exp_20260717/data/participant_metrics_transformed_z.parquet",
+      "exp_20260717/data/bootstrap_weights_primary_region_tier_1000.npy"
+    ]
+  },
+  "signals": {
+    "scripts": [
+      "manuscript_20260915/12_integrated_regional_practices_20260918/code/analyse_signals.py"
+    ],
+    "required_inputs": [
+      "exp_20260717/data/context_unresidualized_participant_scores.parquet",
+      "exp_20260717/data/participant_metrics_transformed_z.parquet",
+      "exp_20260717/data/bootstrap_weights_primary_region_tier_1000.npy",
+      "outputs/study0/data/study0_canonical_participant_match_sample.pkl",
+      "manuscript_20260915/10_overall_and_process_differences_20260918/data/adjusted_player_scores.parquet"
+    ]
+  },
+  "context": {
+    "scripts": [
+      "manuscript_20260915/14_context_results_20260919/code/analyse_context.py"
+    ],
+    "required_inputs": [
+      "exp_20260717/data/context_unresidualized_participant_scores.parquet",
+      "exp_20260717/data/bootstrap_weights_primary_region_tier_1000.npy",
+      "outputs/study0/data/study0_canonical_participant_match_sample.pkl"
+    ]
+  },
+  "supplement_additions": {
+    "scripts": [
+      "manuscript_20260915/16_supplementary_materials_20260920/code/analyse_additions.py"
+    ],
+    "required_inputs": [
+      "exp_20260717/data/context_unresidualized_participant_scores.parquet",
+      "exp_20260717/data/participant_metrics_transformed_z.parquet",
+      "exp_20260717/data/bootstrap_weights_primary_region_tier_1000.npy",
+      "manuscript_20260915/03_reproducibility/data/analysis_scored_0_10.parquet"
+    ]
+  },
+  "minute_profiles": {
+    "scripts": [
+      "manuscript_20260915/13_timeline_dynamics_20260919/code/analyse_minutes.py"
+    ],
+    "required_inputs": [
+      "manuscript_20260915/13_timeline_dynamics_20260919/data/minute_shards/*.parquet",
+      "manuscript_20260915/03_reproducibility/data/timeline_features_0_10.parquet",
+      "manuscript_20260915/03_reproducibility/data/all_participant_disjoint_matches.parquet"
+    ]
+  },
+  "objective_curves": {
+    "scripts": [
+      "manuscript_20260915/13_timeline_dynamics_20260919/code/analyse_function.py"
+    ],
+    "required_inputs": [
+      "manuscript_20260915/03_reproducibility/data/analysis_scored_0_10.parquet"
+    ]
+  },
+  "timeline_models": {
+    "scripts": [
+      "manuscript_20260915/03_reproducibility/code/run_models.py"
+    ],
+    "required_inputs": [
+      "manuscript_20260915/03_reproducibility/data/timeline_features_0_10.parquet",
+      "manuscript_20260915/03_reproducibility/data/timeline_features_0_15.parquet"
+    ]
+  },
+  "timeline_sensitivity": {
+    "scripts": [
+      "manuscript_20260915/03_reproducibility/code/run_sensitivity.py"
+    ],
+    "required_inputs": [
+      "manuscript_20260915/03_reproducibility/data/*.parquet",
+      "exp_20260717/data/timeline_match_differences_nonduplicated_scores.parquet"
+    ]
+  },
+  "prediction": {
+    "scripts": [
+      "manuscript_20260915/03_reproducibility/code/run_prediction.py"
+    ],
+    "required_inputs": [
+      "manuscript_20260915/03_reproducibility/data/analysis_scored_0_10.parquet",
+      "manuscript_20260915/03_reproducibility/data/focal_player_match_split.parquet",
+      "manuscript_20260915/03_reproducibility/data/canonical_focal_links.parquet"
+    ]
+  },
+  "tests": {
+    "scripts": [
+      "manuscript_20260915/03_reproducibility/code/test_parser.py",
+      "manuscript_20260915/03_reproducibility/code/test_alignment.py",
+      "manuscript_20260915/03_reproducibility/code/test_statistics.py"
+    ],
+    "required_inputs": []
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "source_data/main/relationships/player_region_centered_Pearson.csv": {
+    "sources": [
+      "main/figures/Figure1a.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/relationships/player_NA_Pearson.csv": {
+    "sources": [
+      "supplementary/figures/FigureS1a.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/relationships/player_EUW_Pearson.csv": {
+    "sources": [
+      "supplementary/figures/FigureS1b.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/relationships/player_KR_Pearson.csv": {
+    "sources": [
+      "supplementary/figures/FigureS1c.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/relationships/relationship_summaries.csv": {
+    "sources": [
+      "supplementary/results/relationship_summaries.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/relationships/exact_grouping_diagnostics.csv": {
+    "sources": [
+      "supplementary/results/grouping_diagnostics.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/relationships/primary_exact_label_distributions.csv": {
+    "sources": [
+      "main/figures/Figure1c.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/regional/regional_adjusted_means.csv": {
+    "sources": [
+      "supplementary/results/regional_means.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/regional/player_distribution_summaries.csv": {
+    "sources": [
+      "main/figures/Figure2a_quantiles.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/regional/all_player_densities.csv": {
+    "sources": [
+      "main/figures/Figure2a_density.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/regional/Fig2d_signal_adjusted_means.csv": {
+    "sources": [
+      "main/figures/Figure2c.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/regional/Fig2ef_signal_occurrence_frequency.csv": {
+    "sources": [
+      "main/figures/Figure2de.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/regional/Supplementary_FigS2_all_player_ECDF.csv": {
+    "sources": [
+      "supplementary/figures/FigureS2a.csv",
+      "supplementary/figures/FigureS2b.csv",
+      "supplementary/figures/FigureS2c.csv"
+    ],
+    "operation": "ecdf"
+  },
+  "source_data/main/regional/Supplementary_FigS2_quantile_differences.csv": {
+    "sources": [
+      "supplementary/figures/FigureS2d.csv",
+      "supplementary/figures/FigureS2e.csv",
+      "supplementary/figures/FigureS2f.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/context/tier_adjusted_means.csv": {
+    "sources": [
+      "main/figures/Figure3a.csv",
+      "main/figures/Figure3b.csv",
+      "supplementary/figures/FigureS3a.csv",
+      "supplementary/figures/FigureS3b.csv",
+      "supplementary/figures/FigureS3c.csv",
+      "supplementary/figures/FigureS3d.csv",
+      "supplementary/figures/FigureS3e.csv",
+      "supplementary/figures/FigureS3f.csv",
+      "supplementary/figures/FigureS3g.csv",
+      "supplementary/figures/FigureS3h.csv",
+      "supplementary/figures/FigureS3i.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/context/position_adjusted_means.csv": {
+    "sources": [
+      "main/figures/Figure3f.csv",
+      "main/figures/Figure3g.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/timeline/Fig3abc_minute_profiles.csv": {
+    "sources": [
+      "main/figures/Figure4a.csv",
+      "main/figures/Figure4b.csv",
+      "main/figures/Figure4c.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/timeline/Fig3d_adjusted_probability_curves.csv": {
+    "sources": [
+      "main/figures/Figure4d.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/timeline/Fig3d_observed_difference_distribution.csv": {
+    "sources": [
+      "main/figures/Figure4d_support.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/main/timeline/Supplementary_probability_spline_curves.csv": {
+    "sources": [
+      "supplementary/figures/FigureS6a.csv"
+    ],
+    "operation": "spline"
+  },
+  "tables/main/timeline/minute_regional_contrasts.csv": {
+    "sources": [
+      "supplementary/figures/FigureS4a.csv",
+      "supplementary/figures/FigureS4b.csv",
+      "supplementary/figures/FigureS4c.csv",
+      "supplementary/figures/FigureS4d.csv",
+      "supplementary/figures/FigureS4e.csv",
+      "supplementary/figures/FigureS4f.csv",
+      "supplementary/figures/FigureS4g.csv",
+      "supplementary/figures/FigureS4h.csv",
+      "supplementary/figures/FigureS4i.csv"
+    ],
+    "operation": "concat"
+  },
+  "tables/main/timeline/frozen_sensitivity_models.csv": {
+    "sources": [
+      "supplementary/results/objective_sensitivity.csv"
+    ],
+    "operation": "concat"
+  },
+  "tables/supplementary/early_tier_common_patch_means.csv": {
+    "sources": [
+      "supplementary/figures/FigureS5a.csv"
+    ],
+    "operation": "concat"
+  },
+  "tables/supplementary/timeline_extended/sensitivity_models.csv": {
+    "sources": [
+      "supplementary/results/objective_sensitivity.csv"
+    ],
+    "operation": "concat"
+  },
+  "tables/supplementary/timeline_extended/sample_flow_region_tier_0_10.csv": {
+    "sources": [
+      "supplementary/figures/FigureS7a.csv"
+    ],
+    "operation": "concat"
+  },
+  "source_data/supplementary/S5a_spline_minus_linear.csv": {
+    "sources": [
+      "supplementary/figures/FigureS6a.csv"
+    ],
+    "operation": "concat"
+  }
+}

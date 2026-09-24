@@ -1,2 +1,8 @@
 # Preserve the byte representation used by the published data checksums.
 data/** -text
+code/** text eol=lf
+docs/** text eol=lf
+README.md text eol=lf
+requirements.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
