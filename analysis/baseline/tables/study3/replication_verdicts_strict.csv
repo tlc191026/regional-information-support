@@ -1,0 +1,27 @@
+pattern,item,estimate,ci_low,ci_high,verdict,threshold,discovery,rule
+R1,control_wards_bought ratio KR-NA1,1.959655026449432,1.8817667529859683,2.041643492609789,replicated,,,
+R1,control_wards_bought within-champion gap KR-NA1 (relative),0.9519056604702356,0.9099310502979833,0.9936691486620052,replicated,,,
+R1,control_wards_bought ratio KR-EUW1,1.81841413915895,1.775136551831049,1.86347284363857,replicated,,,
+R1,control_wards_bought within-champion gap KR-EUW1 (relative),0.7864251148004794,0.7549053163115573,0.8198960339339861,replicated,,,
+R1,wards_killed ratio KR-NA1,1.4001333874473931,1.3833077544222274,1.4204481824584418,replicated,,,
+R1,wards_killed within-champion gap KR-NA1 (relative),0.43160391603181114,0.41913634818307466,0.44469191074634074,replicated,,,
+R1,wards_killed ratio KR-EUW1,1.3533826286787565,1.3408759975650997,1.3670033737628735,replicated,,,
+R1,wards_killed within-champion gap KR-EUW1 (relative),0.3573787300158706,0.3473861146915111,0.3689440594235809,replicated,,,
+R2,caution occurrence difference KR-NA1,0.2066966468920734,0.1929507971491584,0.2204601823788592,replicated,,,
+R2,"caution share of all pings, ratio KR-NA1",1.7022419544553982,1.6045331375537086,1.7999272048415016,replicated,,,
+R2,caution occurrence difference KR-EUW1,0.1939713891588573,0.1829061215517481,0.2042054431358294,replicated,,,
+R2,"caution share of all pings, ratio KR-EUW1",1.7656006634159347,1.6911152482176852,1.8406153273433363,replicated,,,
+R2,initiation occurrence difference KR-NA1,-0.0658574757327546,-0.0748804273041451,-0.0561398069650978,replicated,,,
+R2,"initiation share of all pings, ratio KR-NA1",0.4530465997228776,0.4227741697292055,0.4860773541815982,replicated,,,
+R2,initiation occurrence difference KR-EUW1,-0.1070514745309455,-0.1135196060959628,-0.1004196310316186,replicated,,,
+R2,"initiation share of all pings, ratio KR-EUW1",0.4475571253199547,0.424947436664861,0.4731523360365549,replicated,,,
+R3,initiation gradient difference KR-NA1,-0.4752808745603158,-0.7287324896891079,-0.215791031910305,replicated,0.052377417537852966,,
+R3,initiation gradient difference KR-EUW1,-0.1478450640378342,-0.2606720883395403,-0.0398994391445412,replicated,0.0196338364856048,,
+R4,"control_wards difference pooled (ORIV, SD units)",-0.0110860764128686,-0.0130194695738786,-0.0091526832518587,replicated,,-0.0110178099740343,discovery non-zero: same sign and holdout 95% CI excluding zero
+R4,"control_wards teammate pooled (ORIV, SD units)",-0.005564815025668,-0.007097870373597,-0.004031759677739,replicated,,-0.0062401682824217,discovery non-zero: same sign and holdout 95% CI excluding zero
+R4,"control_wards regional contrasts of teammate-minus-opponent (KR vs NA, EUW)",,,,partially replicated,,,
+R4,"wards_killed difference pooled (ORIV, SD units)",-0.0359376036711573,-0.0380885161515487,-0.0337866911907658,replicated,,-0.0373284161790681,discovery non-zero: same sign and holdout 95% CI excluding zero
+R4,"wards_killed teammate pooled (ORIV, SD units)",-0.0020094203550179,-0.0039303149032811,-8.852580675478851e-05,replicated,,-0.0057084103915594,discovery non-zero: same sign and holdout 95% CI excluding zero
+R5,"maintenance difference, +1 SD probability change (M1)",0.019132406321724,0.0179382532220583,0.0203265594213897,replicated,,0.0193426490490343,
+R5,control_ward_purchases_diff: +1 unit probability change (M3),0.0043306307269122,0.0038088445627463,0.004852416891078,replicated,,0.0041834442895497,
+R5,valid_ward_kills_diff: +1 unit probability change (M3),0.0054092849565495,0.0047761337531181,0.006042436159981,replicated,,0.0059998213341037,

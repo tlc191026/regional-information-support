@@ -1,0 +1,22 @@
+region,metric,estimate,ci_low,ci_high,scale,region_definition
+NA1,wards_placed,3.939803639518392,3.930079465457786,3.949173622590302,per_10_min,server of the sampled player listing
+NA1,wards_killed,0.851731194096779,0.8485188869143179,0.854946293039692,per_10_min,server of the sampled player listing
+NA1,control_wards_bought,0.3451514174515072,0.3413750683703941,0.3486743412220434,per_10_min,server of the sampled player listing
+NA1,all_in_pings,0.1456967595120346,0.141810956560675,0.1495856586905603,per_10_min,server of the sampled player listing
+NA1,get_back_pings,0.4662143859969654,0.4578992315884095,0.4748149880140199,per_10_min,server of the sampled player listing
+NA1,on_my_way_pings,2.31033321697919,2.290111402843433,2.333563206488047,per_10_min,server of the sampled player listing
+NA1,push_pings,0.0740623034729218,0.0723604943402114,0.0758601872629246,per_10_min,server of the sampled player listing
+EUW1,wards_placed,4.031879979659854,4.021742033866454,4.042571203488159,per_10_min,server of the sampled player listing
+EUW1,wards_killed,0.8810995588956062,0.8776815741722636,0.8844626110111014,per_10_min,server of the sampled player listing
+EUW1,control_wards_bought,0.3747680251374687,0.3710008812588252,0.3786395395719711,per_10_min,server of the sampled player listing
+EUW1,all_in_pings,0.1712728800022978,0.1668481447676509,0.1754585580926451,per_10_min,server of the sampled player listing
+EUW1,get_back_pings,0.4925084861469067,0.4833448966255947,0.5007953006294094,per_10_min,server of the sampled player listing
+EUW1,on_my_way_pings,2.489686255268708,2.466584553911029,2.5118097370470123,per_10_min,server of the sampled player listing
+EUW1,push_pings,0.1013753408245378,0.0991177854375216,0.1036335298468382,per_10_min,server of the sampled player listing
+KR,wards_placed,4.226054875523234,4.216575239217317,4.235769851046785,per_10_min,server of the sampled player listing
+KR,wards_killed,1.1951349969242706,1.1915313704967183,1.1988432087776706,per_10_min,server of the sampled player listing
+KR,control_wards_bought,0.6791501769107318,0.6748373571536301,0.6832516477702697,per_10_min,server of the sampled player listing
+KR,all_in_pings,0.1016260925064575,0.0990481649942093,0.1042521965747228,per_10_min,server of the sampled player listing
+KR,get_back_pings,0.93823120104369,0.9262833458240838,0.9495634615436814,per_10_min,server of the sampled player listing
+KR,on_my_way_pings,2.8334492189829223,2.810156303032587,2.856623718257833,per_10_min,server of the sampled player listing
+KR,push_pings,0.038901504481165,0.038169041376098,0.039693541330089,per_10_min,server of the sampled player listing

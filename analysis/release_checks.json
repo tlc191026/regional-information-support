@@ -1,0 +1,25 @@
+{
+  "date": "2026-11-12",
+  "manuscript_version": "V15",
+  "source_files": 318,
+  "python_modules_parsed": 57,
+  "analysis_functions_and_classes_unchanged": 258,
+  "aggregate_files_byte_identical": 262,
+  "figure_reconstruction": {
+    "main_pdf": 5,
+    "supplementary_pdf": 11,
+    "formats": [
+      "PNG",
+      "PDF",
+      "TIFF"
+    ]
+  },
+  "targeted_checks": {
+    "participant_timeline_parser": "passed",
+    "two_way_ORIV_synthetic_check": "passed",
+    "source_hashes": "passed",
+    "identifier_and_credential_scan": "passed"
+  },
+  "full_model_refit_performed": false,
+  "note": "Checks cover packaging, shared numerical routines and figure reconstruction. Distributed estimates are retained from the research runs."
+}

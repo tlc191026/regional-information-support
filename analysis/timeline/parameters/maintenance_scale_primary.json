@@ -1,0 +1,32 @@
+{
+  "components": [
+    "valid_wards_placed",
+    "valid_ward_kills",
+    "control_ward_purchases"
+  ],
+  "log1p_winsor_mean_sd": {
+    "valid_wards_placed": [
+      2.302585092994046,
+      3.1780538303479458,
+      2.8115413701734613,
+      0.1856870579133463
+    ],
+    "valid_ward_kills": [
+      0.0,
+      1.9459101490553132,
+      0.8959837511597893,
+      0.5691018008052735
+    ],
+    "control_ward_purchases": [
+      0.0,
+      2.0794415416798357,
+      1.0881143087752478,
+      0.5786233989735178
+    ]
+  },
+  "score_mean": 6.429935207938326e-16,
+  "score_sd": 0.7275806328946177,
+  "diff_mean": -0.041256705314518645,
+  "diff_sd": 0.973240860973834,
+  "both_sides_pooled": true
+}

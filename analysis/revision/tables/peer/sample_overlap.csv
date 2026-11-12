@@ -1,0 +1,9 @@
+sample,stage,players,player_match_rows,unique_matches,overlap_discovery_habit_matches
+holdout,all,31821,926882,854485,199559
+holdout,s1,31821,636420,607873,132793
+holdout,outcome,31821,443871,427972,97860
+holdout,habit,31821,483011,461093,112730
+strict,all,23193,575798,548256,0
+strict,s1,23193,463860,446495,0
+strict,outcome,23193,282148,275371,0
+strict,habit,23193,293650,286352,0

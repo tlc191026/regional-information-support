@@ -1,0 +1,1915 @@
+{
+  "release": "2026-11-12",
+  "manuscript_version": "V15",
+  "changes": "Relative paths and environment-based input locations; panel headings omitted from plots. Estimation routines and aggregate estimates retained.",
+  "files": [
+    {
+      "file": "analysis/baseline/code/config.py",
+      "source_sha256": "f030bda07dbd71bb3daec6e5a47f8a2661a552fe402f053d2151da32189fdf15",
+      "release_sha256": "65ea29d2ec719fb72da2d50d3374b9d35852e56070c156873fd6aa9215a07bf8",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/db_extract.py",
+      "source_sha256": "1faeaf1916fef4ffd6592aabd4e8878abc05bf87a59638f6181793b1d6caf0f2",
+      "release_sha256": "edf40723ef3978be8e3f2d17768eeb2942c98563eaf3f704b867a629c43565f3",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/build_player_listing.py",
+      "source_sha256": "d2271f2969edda08db8be6aa6d70416fc0a42a9d9dcfcc2a314b6b8145e51c3d",
+      "release_sha256": "24f6f35babcbca3372df76c327816f3a49d4a9c584a98c23bb1e87bed86eea87",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/build_holdout_sample.py",
+      "source_sha256": "b15e831e830d2f2fbe094b668d4cff02c2a6daa417f95635bb868b68ca535982",
+      "release_sha256": "24b77ea85a018f19d5ce346d6885b7d52a0fe4bf4dd56335b9d809713a383c1b",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/build_participant_tables.py",
+      "source_sha256": "3a31f5f6345e7abbc82caece33ede711f6ea369c97954a4db459a180c32bd7db",
+      "release_sha256": "d8d06428a8f2c3748173babc24bfbac6294b796255071833fee5d014e7441dcc",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/build_study1_rows.py",
+      "source_sha256": "6ba0e976d4762fd9d085ae9b44b67a304c3a1bde0aaf69b5eeee6b7ec192633a",
+      "release_sha256": "ea5abb5ec2c92b112c15d21b70d971a26f2f3182ec83cb573c27a76a3b4f0f85",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/build_c1_data.py",
+      "source_sha256": "45521736e593757eefd8ce2c41f0a20b33c74e29b16e3ed1edaaa5e0be915a01",
+      "release_sha256": "6d9013cde9d04306803453fad026f1cba3525a2863ce6d8ae1ebd046efbce7a0",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/build_ladder_percentiles.py",
+      "source_sha256": "4b45d60521d8bd9ff532d8a4a99acd5637d35a8a3a686931f1d53266b3e41496",
+      "release_sha256": "a5c1c6f581c37519dce974cda1f1129a41dfde0760e86a9dbe78a87f4eb65259",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/build_timeline_targets.py",
+      "source_sha256": "e37e9d6ed39d910e36fb0aba0da7ca4db09bdba58deb4e7f38dd4a55dd758a50",
+      "release_sha256": "0b82879b5c56500f7a146c8e39112d04a4cc3fd10914dcbe2535e0fa14b1077a",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/build_static_data.py",
+      "source_sha256": "11c0f4e818e55a36bd9efc0288a28ffd81781f831d70103de7068b9fa2b052ee",
+      "release_sha256": "5395bafca18ebc65653de469ac011973e039930252a8f14d47f636ec0affa19e",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/parse_participant_timelines.py",
+      "source_sha256": "d4a61c1cb68a55e967e404a11869c712f52119f395ea42902f51b2ae4df2fc7b",
+      "release_sha256": "1350343b2acb70c621a9843ffbfd706b6c0aa2da240d569380481522de135416",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/performance_link.py",
+      "source_sha256": "6ae14cdb863b72e71d3d9d2dcffe9cfa200a521dde5884de4ffeef4c1469c449",
+      "release_sha256": "b7d2af72f9668d9c46105bc96ae97e0b3b6a006924cfc2fa239ed2de39fdb640",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/estimation.py",
+      "source_sha256": "aee046c8e36c59ee0a5178b87492273d5c7c1edd0bb1432c9632edf35a71e243",
+      "release_sha256": "fa1e0778792547bcb4bd0fbaa21978408ae9fb1cfafdfdc103cb8f784d0ed58d",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/study1_analysis.py",
+      "source_sha256": "972dd3b0db942e84b72ecb72b4d1ff2a8b44eb4e6a18cb5ba2438a3174d9713d",
+      "release_sha256": "2b03712baf77495b1d2a1a6320884ec6acacc31729cc703bf73bc2e9eec6b02f",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/study2_analysis.py",
+      "source_sha256": "fa3efe655e8f8d3fabe4ffc37ae16b82fa2ff55f2f437bcd369f3da9154a8078",
+      "release_sha256": "1b2a6e80985653565dcb4944f5d23dfffebf58972bc6ac6be065b2eab7cd3699",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/study3_replication.py",
+      "source_sha256": "3cebf46cc0447fa9a2ffa07dd7965d033bee5f1f4b0c083207cebeb711d21ac1",
+      "release_sha256": "0e5601f41f0d7a25941456d049d0a7b8fad57a15c23666ed44bdb2199ca555e7",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/twoway.py",
+      "source_sha256": "1bc0fd50c730c4febdcb4b4aa4628bdb10bcf024d804a11d98f93b6c3110295b",
+      "release_sha256": "1c69d546ed19bc1b96ce95c1d66afb9494c70112f9553da3024591983e577b0b",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/c1_step0_diagnostics.py",
+      "source_sha256": "5138ab89a8c016baa69500580cfc13b6b7eddd436cfd45e0aa8acbb8e8ba58f5",
+      "release_sha256": "c4686c87492e85c2c0e3b7a4853787598efdaa1afa5a815ebdd1dbd09d0e8265",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/test_participant_parser.py",
+      "source_sha256": "16dee0e69b79185657057bef0733b6f7db8d92de13360061d9a461524297b4c2",
+      "release_sha256": "66d02ff14f5962cf0124c2f69166bcd71925c94b3b3e56f6b49595248341c19e",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/code/test_twoway.py",
+      "source_sha256": "47d984e03a93cb70591bc93a82f0f3c5d1cd7f70b1b2ca0c29de468dd0d2e8e3",
+      "release_sha256": "a98a50a96d63b7578880facffdaab6310d64a5834f975e3628714fe36551fbb7",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/assemble_peer_results.py",
+      "source_sha256": "68fb23d9286964ac293c6042efd04699ce27421cf76c566db86e2b4a6f2a9918",
+      "release_sha256": "dc22b04607d353fa91194d271caceb60271521d14b144b0c263de1a1ec86cd72",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/build_c1_data.py",
+      "source_sha256": "755b306f987f38ea5d53f2c1c3769065a996301429d3c685637ac8261d73a4ee",
+      "release_sha256": "1cab86538b510932d26687c9efc57444b41e3e5c27fac4543ee595ce155ed4e5",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/build_strict.py",
+      "source_sha256": "ea2efe6f9a843ddb6a8b560166ada8ced8bdecd6ec5d2c0e55f5583b38efd881",
+      "release_sha256": "6dee23dceab738d04997a72ba7febce3f754891ae5d215693d014160665b5dfa",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/cluster_sensitivity.py",
+      "source_sha256": "df25a999e983c25ccf89be291e2cc7e1b09fe1be757e3703e2ab126bc51deaa5",
+      "release_sha256": "18e86b7bc4b47083bbab939a41012e412bb244c1d62af048660b32980e3f96b8",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/config.py",
+      "source_sha256": "ad510db9b454f20989d5ba4025cb4e1f8020128b1e73610ff23c61d6e199fea4",
+      "release_sha256": "61225eebf82dd83a6355825466db2b2b6f225d38483123266ca77c86a3622f4d",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/export_summary_tables.py",
+      "source_sha256": "4c377e6c27aa59046c56975bab0e272575fed4e4e6eb3f67cf1cdcbe5340cb29",
+      "release_sha256": "4c377e6c27aa59046c56975bab0e272575fed4e4e6eb3f67cf1cdcbe5340cb29",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/own_tendencies.py",
+      "source_sha256": "43fc4c007da03e7f8113cea593f4f74b46f264ca9233a9101b98be471b1c33e2",
+      "release_sha256": "43fc4c007da03e7f8113cea593f4f74b46f264ca9233a9101b98be471b1c33e2",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/run_peer_revision.py",
+      "source_sha256": "10bea0fd7684bc8306c6b3cc7e12951ad14746103ed81b5ea1241730b1578cd2",
+      "release_sha256": "47459bb10707b667cea8010ada5ec036433c4e9b931c56154f1302e00363fb8c",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/run_strict.py",
+      "source_sha256": "67750ec5eb121e0d158cd7ff45c49c0fbc411a7ef66db3a04e4fd74417bb5d12",
+      "release_sha256": "67750ec5eb121e0d158cd7ff45c49c0fbc411a7ef66db3a04e4fd74417bb5d12",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/study2_analysis.py",
+      "source_sha256": "59aefa8e7311ed50b81f4eb8e172540f680f5829c09d43bf620a0fd4fdc6b38f",
+      "release_sha256": "775fbc83516fb821c8b174828d6df53c3137574c4d849808237e428bcb64a10f",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/twoway.py",
+      "source_sha256": "1bc0fd50c730c4febdcb4b4aa4628bdb10bcf024d804a11d98f93b6c3110295b",
+      "release_sha256": "1c69d546ed19bc1b96ce95c1d66afb9494c70112f9553da3024591983e577b0b",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/peer/validate_peer.py",
+      "source_sha256": "2c8b01617a038c90128adda6cb89fc1d4cba0b7511061f28f3031717e32fbfe4",
+      "release_sha256": "114f6e830e3184bf8994b13eb73e79c9cb89b83767cca3226ab2b4e443812841",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/regional_performance/revise_performance.py",
+      "source_sha256": "3bd577ff4a2cbadc091800e14aa76b278b328c3eba53735b0f0c4be7de9e2e26",
+      "release_sha256": "7a95692910efd53546ffd579e77183444d6d08870a59dcd1d9adc95cd5005336",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/code/regional_performance/revise_regional.py",
+      "source_sha256": "367e2ef438b5f0c69a3a9f1bd48ee8e4ccfa6053839d1445a001325c77af3656",
+      "release_sha256": "8a842687c46b66f40ad17c6ddebefb945cdacb81ff7027e57038f8b7c505ad2b",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/theory/code/common.py",
+      "source_sha256": "e55facdf30c02b146aecd61644b9f3889d32742676efca85abc20cae0dc6a9d9",
+      "release_sha256": "514b18b25f9d51e7f6315094c0b2a25ebf81a86d44aed1583809f58f8a84c527",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/theory/code/regional_tests.py",
+      "source_sha256": "5937b17588252412d04d1f964fc40aa5fe64136196245440d887af39324f9d10",
+      "release_sha256": "6e06f07611b110c038ab51c03b05647758f157c2dea194a7b1077e4fd02e0801",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/theory/code/role_pair_tests.py",
+      "source_sha256": "eb81b5c45a5a686966810633e5c803979681f72043a1be4bbae25702609029e9",
+      "release_sha256": "4344af43983b5b7f697e95d8f5af23e01b5c2691f1b1e07312a3d29f51a718cb",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/theory/code/validate_analyses.py",
+      "source_sha256": "94c19e94ff78ae401f72edd455e31af497799242916120a03c01041002292c6d",
+      "release_sha256": "94c19e94ff78ae401f72edd455e31af497799242916120a03c01041002292c6d",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/common_revision.py",
+      "source_sha256": "1666bed79cb1b9c5aae8cfe27b0e96a64782a3b89899e84ad601da2059006b37",
+      "release_sha256": "d69016eefdfffcc641a9fe9ecd23456af38b680121f9c9c1a09a0e25464f5149",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/reexpress_results.py",
+      "source_sha256": "29941fef5b233428333fff5dcfd6839f871a99ea203f1857c90fa18f324d9ae1",
+      "release_sha256": "29941fef5b233428333fff5dcfd6839f871a99ea203f1857c90fa18f324d9ae1",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/peer_extensions.py",
+      "source_sha256": "8d1a3c42a96497e53da865d448d57ce82959b056c41b4cfd594ae61ac98c55e4",
+      "release_sha256": "8d1a3c42a96497e53da865d448d57ce82959b056c41b4cfd594ae61ac98c55e4",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/timeline_extensions.py",
+      "source_sha256": "fc0ccb0262fba31011d8df447a4e1892929139fcc396cd0e8b8dcad3b43c0422",
+      "release_sha256": "8df42e7295471ab0717ee781b14940e3a4c6e69a5972f3c17a27cc821098b322",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/additional_summaries.py",
+      "source_sha256": "6b191e4dcd8c9df1335313c10ea806f33fc6ae9655b9696bd9dda443093e9947",
+      "release_sha256": "6b191e4dcd8c9df1335313c10ea806f33fc6ae9655b9696bd9dda443093e9947",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/validate_extensions.py",
+      "source_sha256": "5804d7ded24185392f9b9b45a32f50178f0b682380e2f3a7c5ab741fcd4c013d",
+      "release_sha256": "5804d7ded24185392f9b9b45a32f50178f0b682380e2f3a7c5ab741fcd4c013d",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/figures/fig1.py",
+      "source_sha256": "5ea68ddd5510c2e4ed1afdd579219c816311508fbe404396284a8328aef18ba6",
+      "release_sha256": "5ea68ddd5510c2e4ed1afdd579219c816311508fbe404396284a8328aef18ba6",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/figures/fig2.py",
+      "source_sha256": "39a3bec138f36de663c036733f006ca1737062ceaf1e9340b20f9047d53fdb93",
+      "release_sha256": "39a3bec138f36de663c036733f006ca1737062ceaf1e9340b20f9047d53fdb93",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/figures/fig3.py",
+      "source_sha256": "2b8ad2a2577f68a9ad46cfb6c643fd56ab6f41132559d4067c8a894e8d3a2483",
+      "release_sha256": "2b8ad2a2577f68a9ad46cfb6c643fd56ab6f41132559d4067c8a894e8d3a2483",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/figures/fig4.py",
+      "source_sha256": "8c7aa2f2624988706c073907b81484f79eb691cf940fabaee010e0107755b94c",
+      "release_sha256": "8c7aa2f2624988706c073907b81484f79eb691cf940fabaee010e0107755b94c",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/figures/fig5.py",
+      "source_sha256": "b515a392ac09fc1c630fe7254b8ae73f9c5894a3a7dabfa2ba758c9e99ee693f",
+      "release_sha256": "835e137ad1bc615a596e3a659eb95cae577b7d6e177e4f1be2b9ada8fffb6972",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/figures/style.py",
+      "source_sha256": "468507a42cb40ba16b53bc2623f6544855af694063d413172392468bad36c99e",
+      "release_sha256": "e0792c695ce70d2839e5c51ac2c8e80da376553169b68a9a71d5ed6aba10580b",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/figures/supp_a.py",
+      "source_sha256": "cef37ec367860899c72c7d249e13be6bd4806362015214f50a94432da54e6d37",
+      "release_sha256": "cef37ec367860899c72c7d249e13be6bd4806362015214f50a94432da54e6d37",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/revision/extensions/code/figures/supp_b.py",
+      "source_sha256": "12368b564078e401278d367c2af1c0d42cab74ba606cddd14e72b929b965c364",
+      "release_sha256": "a0e28727e9993701bf6d62fa9b5d3c7e3964850d0d4656edb5298d4837e96819",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/timeline/code/settings.py",
+      "source_sha256": "c1e916e7da7163ab84104d10d043c6634e0b63cb7d80374f3377201ec8927c96",
+      "release_sha256": "ea8f6e946a78f1461c007e0e0b96c436288bca23b7b39be89496ea27e0acff32",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/timeline/code/parse_raw.py",
+      "source_sha256": "af1ddea36e0e09fdd6a0dc4ab02121d5fdaf10d0d69c38b1addf98c25ddc0e6b",
+      "release_sha256": "af1ddea36e0e09fdd6a0dc4ab02121d5fdaf10d0d69c38b1addf98c25ddc0e6b",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/timeline/code/parse_aligned.py",
+      "source_sha256": "2edaac6970b80ccbd2701059c52e03ca4adff85b06ae9104c22133744e9a15ee",
+      "release_sha256": "2edaac6970b80ccbd2701059c52e03ca4adff85b06ae9104c22133744e9a15ee",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/minute_timeline/code/parse_minutes.py",
+      "source_sha256": "6803c9833cbd70e46d2714a11ca13dd02c16f746080e009176f53a4259b9a97a",
+      "release_sha256": "321a5c19b2e817f231ae615a0fe9cd0e190a8f57cd955add553d21ec8538dbbd",
+      "kind": "analysis_code"
+    },
+    {
+      "file": "analysis/baseline/tables/holdout_counts_by_stratum_primary.csv",
+      "source_sha256": "2fdbe9c25365670cca9d1b027fa18af867a3449f874ed6598eefa9cf857c634a",
+      "release_sha256": "2fdbe9c25365670cca9d1b027fa18af867a3449f874ed6598eefa9cf857c634a",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/holdout_counts_by_stratum_strict.csv",
+      "source_sha256": "d448ac325ae34d880606e4a5e4f6eff3ca71177e81115d93ecc028594edab9f9",
+      "release_sha256": "d448ac325ae34d880606e4a5e4f6eff3ca71177e81115d93ecc028594edab9f9",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/ladder_distribution_snapshots.csv",
+      "source_sha256": "5f644aad8d6852f37f18dd76bd01b15bb3dd311835113ebb21e8dd490f47adcd",
+      "release_sha256": "5f644aad8d6852f37f18dd76bd01b15bb3dd311835113ebb21e8dd490f47adcd",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/ladder_percentile_ranges.csv",
+      "source_sha256": "fa87c5a131f6bc19332f285fa314234932367c169e8faa57a0a3db0818b740a9",
+      "release_sha256": "fa87c5a131f6bc19332f285fa314234932367c169e8faa57a0a3db0818b740a9",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/performance/discovery/performance_models.csv",
+      "source_sha256": "affbcb4ffd8a8ca01746125e5044bdbc5e32983c7d80d485afb0fdc864e4370f",
+      "release_sha256": "affbcb4ffd8a8ca01746125e5044bdbc5e32983c7d80d485afb0fdc864e4370f",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/performance/holdout/performance_models.csv",
+      "source_sha256": "fb55ae3082054ba74d800703904c6bc22118bc2bc07a3ca16d8c91bc6dcb9198",
+      "release_sha256": "fb55ae3082054ba74d800703904c6bc22118bc2bc07a3ca16d8c91bc6dcb9198",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/performance/holdout_strict/performance_models.csv",
+      "source_sha256": "8948086f68f8fb21c90754a5cdbb7b1eda6cc247b39dc1f43c3b463aacd78a5e",
+      "release_sha256": "8948086f68f8fb21c90754a5cdbb7b1eda6cc247b39dc1f43c3b463aacd78a5e",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/qa/timeline_target_status.csv",
+      "source_sha256": "90f986e9312584b6fcf9518971877540e308cf0bb491b0e9667bcc1767fe97fc",
+      "release_sha256": "90f986e9312584b6fcf9518971877540e308cf0bb491b0e9667bcc1767fe97fc",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/static_champions.csv",
+      "source_sha256": "2f8d54bfe61c27b2e832a660f1d7166ca70d7c4f29110a6cc95087f272deb689",
+      "release_sha256": "2f8d54bfe61c27b2e832a660f1d7166ca70d7c4f29110a6cc95087f272deb689",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study1/champion_decomposition.csv",
+      "source_sha256": "40f41fd861e38dd524973a626baaa5c6337ac5600148c683efcc56840fc95138",
+      "release_sha256": "40f41fd861e38dd524973a626baaa5c6337ac5600148c683efcc56840fc95138",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study1/cliffs_delta.csv",
+      "source_sha256": "a119984d87ddd60cc40b42ca78d62cfd0e140abd1da8b0864366edd6f8b70ffb",
+      "release_sha256": "a119984d87ddd60cc40b42ca78d62cfd0e140abd1da8b0864366edd6f8b70ffb",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study1/patch_audit_by_region.csv",
+      "source_sha256": "ea4aaff3636bc679346168a5752cd9acbaa1f1c0bb8b90122440fee0bcce991e",
+      "release_sha256": "ea4aaff3636bc679346168a5752cd9acbaa1f1c0bb8b90122440fee0bcce991e",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study1/patch_audit_largest_steps.csv",
+      "source_sha256": "684527bd8a06a1864281fa254cad5b4eab7f7bd986f5098f49db72d7205d934a",
+      "release_sha256": "684527bd8a06a1864281fa254cad5b4eab7f7bd986f5098f49db72d7205d934a",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study1/patch_regional_ratios.csv",
+      "source_sha256": "fc1013bf68a6cfc79b9240cf97a62b809418a082908455aed13d3bd6474007f6",
+      "release_sha256": "fc1013bf68a6cfc79b9240cf97a62b809418a082908455aed13d3bd6474007f6",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study1/percentile_gradients.csv",
+      "source_sha256": "fe26b0187de215f30cc40cd0f8c214cca1e50c24bda261d029d0ff485f5f50d0",
+      "release_sha256": "fe26b0187de215f30cc40cd0f8c214cca1e50c24bda261d029d0ff485f5f50d0",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study1/ping_composition.csv",
+      "source_sha256": "221ad2828ed045c55607c481b365586baba510231540c27eef69575b1d2b7e45",
+      "release_sha256": "221ad2828ed045c55607c481b365586baba510231540c27eef69575b1d2b7e45",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study1/regional_contrasts_natural.csv",
+      "source_sha256": "96e477795468a24c479785e80771375cf7f5a85de9792b73ba36acb917926efe",
+      "release_sha256": "96e477795468a24c479785e80771375cf7f5a85de9792b73ba36acb917926efe",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study1/regional_means_natural.csv",
+      "source_sha256": "52abb71f5234f90eb980a579d2be895b02b875e4ea77566e6e11d9948bff9a88",
+      "release_sha256": "52abb71f5234f90eb980a579d2be895b02b875e4ea77566e6e11d9948bff9a88",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study1/regional_rank_orders.csv",
+      "source_sha256": "96fd8aac9f84a0a3d8ad1452b82d71ddd94dd3c1e7b478d7a0e97a16e4e7f2b9",
+      "release_sha256": "96fd8aac9f84a0a3d8ad1452b82d71ddd94dd3c1e7b478d7a0e97a16e4e7f2b9",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study1/same_champion_examples.csv",
+      "source_sha256": "fe0645f9663da6e3aa3654146dc6f70073caaac6fb7010a59dde38d2bef9f0a6",
+      "release_sha256": "fe0645f9663da6e3aa3654146dc6f70073caaac6fb7010a59dde38d2bef9f0a6",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery/dynamics.csv",
+      "source_sha256": "bc9984dd98bb8b9b5c19c42bdc18579906d87d535d345ecc14f170914344488b",
+      "release_sha256": "bc9984dd98bb8b9b5c19c42bdc18579906d87d535d345ecc14f170914344488b",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery/dynamics_self.csv",
+      "source_sha256": "7e5255dfdb05ed38bcd016013f59801e1abbac00c3b8f7c2c6d74354dc4354ce",
+      "release_sha256": "7e5255dfdb05ed38bcd016013f59801e1abbac00c3b8f7c2c6d74354dc4354ce",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery/main_effects.csv",
+      "source_sha256": "41fc506be806e1d411dc69fe4821d7bf6ff6d4da2dab9c069b07f54675b47397",
+      "release_sha256": "41fc506be806e1d411dc69fe4821d7bf6ff6d4da2dab9c069b07f54675b47397",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery/main_effects_within_region_sd.csv",
+      "source_sha256": "89d41ef0c01e750e9de718860670106cd9823942ad8b3a4db11f031714a5029d",
+      "release_sha256": "89d41ef0c01e750e9de718860670106cd9823942ad8b3a4db11f031714a5029d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery/moderators.csv",
+      "source_sha256": "99d7ccdff14f0dcd7968cdbac4c54b7d3e6ac999720bbe30e0d746a0842fc22c",
+      "release_sha256": "99d7ccdff14f0dcd7968cdbac4c54b7d3e6ac999720bbe30e0d746a0842fc22c",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery/primary_family.csv",
+      "source_sha256": "b8246bf5162450444428d39d70e9fc522509f7144f5e536a9639320e8ac4a62f",
+      "release_sha256": "b8246bf5162450444428d39d70e9fc522509f7144f5e536a9639320e8ac4a62f",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery/robustness.csv",
+      "source_sha256": "20dfb29544c3f775cc065edc263aafd959349ee09d8039d6b42d7c3a3198a7e4",
+      "release_sha256": "20dfb29544c3f775cc065edc263aafd959349ee09d8039d6b42d7c3a3198a7e4",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery/secondary_family.csv",
+      "source_sha256": "f01c6b3decbd1b3a4a55ac3969202486c63149b789ffdfe6cdecba635671209c",
+      "release_sha256": "f01c6b3decbd1b3a4a55ac3969202486c63149b789ffdfe6cdecba635671209c",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery/twoway_design.csv",
+      "source_sha256": "4fad61b1220ef68d69158bce744933ffe9b55040bd5f6f0d4eb1201937b966f2",
+      "release_sha256": "4fad61b1220ef68d69158bce744933ffe9b55040bd5f6f0d4eb1201937b966f2",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery_dryrun_permuted/dynamics.csv",
+      "source_sha256": "d94875621023e210b78bd299eafe4eb3c8b8d5e5fe0bced47fbe48b52075ec27",
+      "release_sha256": "d94875621023e210b78bd299eafe4eb3c8b8d5e5fe0bced47fbe48b52075ec27",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery_dryrun_permuted/dynamics_self.csv",
+      "source_sha256": "31bb0cb3821268caa84b08604b4bbd78a0a65cb211a0df3e97fdb33553668da4",
+      "release_sha256": "31bb0cb3821268caa84b08604b4bbd78a0a65cb211a0df3e97fdb33553668da4",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery_dryrun_permuted/main_effects.csv",
+      "source_sha256": "7a24b5a9a3ee9f6e8ae15301fde24d1300345916f039681eedbe6ee73dfe4ae2",
+      "release_sha256": "7a24b5a9a3ee9f6e8ae15301fde24d1300345916f039681eedbe6ee73dfe4ae2",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery_dryrun_permuted/main_effects_within_region_sd.csv",
+      "source_sha256": "b98fe8f8140dda063ab679f8ceb87204d097952477fcb4e9beca32694f6b051c",
+      "release_sha256": "b98fe8f8140dda063ab679f8ceb87204d097952477fcb4e9beca32694f6b051c",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery_dryrun_permuted/moderators.csv",
+      "source_sha256": "da61b497d1f8060bdee330f28358bf1bacb5a5c34977159d8126760200fb93dc",
+      "release_sha256": "da61b497d1f8060bdee330f28358bf1bacb5a5c34977159d8126760200fb93dc",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery_dryrun_permuted/primary_family.csv",
+      "source_sha256": "b334a56e55c78f835f7fddbe13ec90548a19eb5679efe643c5938927451a3ef4",
+      "release_sha256": "b334a56e55c78f835f7fddbe13ec90548a19eb5679efe643c5938927451a3ef4",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery_dryrun_permuted/robustness.csv",
+      "source_sha256": "7111050b2bbfcb25d9c166cf14b97dd20062be1aec788ae2e553de8492513869",
+      "release_sha256": "7111050b2bbfcb25d9c166cf14b97dd20062be1aec788ae2e553de8492513869",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery_dryrun_permuted/secondary_family.csv",
+      "source_sha256": "039a0fd53ffe0c865d29829b63c0b77a09c54258372b231f66d68ca6d9d79995",
+      "release_sha256": "039a0fd53ffe0c865d29829b63c0b77a09c54258372b231f66d68ca6d9d79995",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery_dryrun_permuted/twoway_design.csv",
+      "source_sha256": "855f5e82e6e164875f811f81910b590dd94bb60f6153c0a51bc9eb9821eb2bca",
+      "release_sha256": "855f5e82e6e164875f811f81910b590dd94bb60f6153c0a51bc9eb9821eb2bca",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout/dynamics.csv",
+      "source_sha256": "bf870da9172ae4360b4a39e7a46df3a529d999dea1cb7e4b14a08c7b2e002a4e",
+      "release_sha256": "bf870da9172ae4360b4a39e7a46df3a529d999dea1cb7e4b14a08c7b2e002a4e",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout/dynamics_self.csv",
+      "source_sha256": "9ebe0c742c4d8f39ade06218aa5bdcbdfac5d32137baa3601caadf9574c08b0d",
+      "release_sha256": "9ebe0c742c4d8f39ade06218aa5bdcbdfac5d32137baa3601caadf9574c08b0d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout/main_effects.csv",
+      "source_sha256": "c698c054e0f427b6c5aecaa13f8a45a98da1694e990d56d1f5e91b77ae73152f",
+      "release_sha256": "c698c054e0f427b6c5aecaa13f8a45a98da1694e990d56d1f5e91b77ae73152f",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout/main_effects_within_region_sd.csv",
+      "source_sha256": "6776f1e75ad3a834a6e9c4af12b10120bf349ea279ec11c245ec9ae0f7cf04d7",
+      "release_sha256": "6776f1e75ad3a834a6e9c4af12b10120bf349ea279ec11c245ec9ae0f7cf04d7",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout/moderators.csv",
+      "source_sha256": "f488166cd416e5793ed0335803908df7c22c3a6556c516c992cfbcb2652b5509",
+      "release_sha256": "f488166cd416e5793ed0335803908df7c22c3a6556c516c992cfbcb2652b5509",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout/primary_family.csv",
+      "source_sha256": "6b9fc31b553574df22fc9d5779288a07d439489b4690b42ea4574917311d6e3d",
+      "release_sha256": "6b9fc31b553574df22fc9d5779288a07d439489b4690b42ea4574917311d6e3d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout/robustness.csv",
+      "source_sha256": "71155edb743ed50c2270d0d083aecf51b3074c2970fce4f845491ff1361126c2",
+      "release_sha256": "71155edb743ed50c2270d0d083aecf51b3074c2970fce4f845491ff1361126c2",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout/secondary_family.csv",
+      "source_sha256": "425bf35c8a52511b9765cae4e76d219d273e2cafa215bc5cd478c60b335bd3f6",
+      "release_sha256": "425bf35c8a52511b9765cae4e76d219d273e2cafa215bc5cd478c60b335bd3f6",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout/twoway_design.csv",
+      "source_sha256": "42c6f1469e361a436c0cd275854cd5e2c35ecb6b76cb730d6e7077f9fdb8b802",
+      "release_sha256": "42c6f1469e361a436c0cd275854cd5e2c35ecb6b76cb730d6e7077f9fdb8b802",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_dryrun_permuted/dynamics.csv",
+      "source_sha256": "b4c5d0995aebd221acaa7dbc665de47b8a02b3c9b2dd209676e081dadbabc259",
+      "release_sha256": "b4c5d0995aebd221acaa7dbc665de47b8a02b3c9b2dd209676e081dadbabc259",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_dryrun_permuted/dynamics_self.csv",
+      "source_sha256": "11ebb0249a80bd4610796676b4b86bdfcdab375c3de548c24ca7024dbe49202d",
+      "release_sha256": "11ebb0249a80bd4610796676b4b86bdfcdab375c3de548c24ca7024dbe49202d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_dryrun_permuted/main_effects.csv",
+      "source_sha256": "0a82d1e960e6faa3ca6d92592316db42e259ba0518ad31f7733f486fa0be4722",
+      "release_sha256": "0a82d1e960e6faa3ca6d92592316db42e259ba0518ad31f7733f486fa0be4722",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_dryrun_permuted/main_effects_within_region_sd.csv",
+      "source_sha256": "9d9c8ea3735f70f49524e0881c77abcd616f73f44fcd2fbb1e73fec661116041",
+      "release_sha256": "9d9c8ea3735f70f49524e0881c77abcd616f73f44fcd2fbb1e73fec661116041",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_dryrun_permuted/moderators.csv",
+      "source_sha256": "0197b86f4b861d001949d416847f4c303bd7f1b9f034f4b501f6cdd5e88a5d06",
+      "release_sha256": "0197b86f4b861d001949d416847f4c303bd7f1b9f034f4b501f6cdd5e88a5d06",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_dryrun_permuted/primary_family.csv",
+      "source_sha256": "667c56e68f16da1a5678ee80a5e9b61027202b74dd9538d94ed4175cf589fdb9",
+      "release_sha256": "667c56e68f16da1a5678ee80a5e9b61027202b74dd9538d94ed4175cf589fdb9",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_dryrun_permuted/robustness.csv",
+      "source_sha256": "20f7b65cb9cc230e66a14d86ebdad744e5b688a2ff181b1689b90c3b5b5df03d",
+      "release_sha256": "20f7b65cb9cc230e66a14d86ebdad744e5b688a2ff181b1689b90c3b5b5df03d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_dryrun_permuted/secondary_family.csv",
+      "source_sha256": "ef46e977b608bba8e3696f629dba463cc3200041ceda33678e0ed2006ceec188",
+      "release_sha256": "ef46e977b608bba8e3696f629dba463cc3200041ceda33678e0ed2006ceec188",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_dryrun_permuted/twoway_design.csv",
+      "source_sha256": "fb552d002dd15bf413b39f74fc006cbe2e21f2e1a78b2779b1ebe9a1d10d9d34",
+      "release_sha256": "fb552d002dd15bf413b39f74fc006cbe2e21f2e1a78b2779b1ebe9a1d10d9d34",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_strict/dynamics.csv",
+      "source_sha256": "c570d75dfe7349c2eac0647382435022debef9b7959b3719c3b98e962b542fe1",
+      "release_sha256": "c570d75dfe7349c2eac0647382435022debef9b7959b3719c3b98e962b542fe1",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_strict/dynamics_self.csv",
+      "source_sha256": "5a6a652f92940c230ca2d46e5f2920d6ee62820ec35c168455463208d859eced",
+      "release_sha256": "5a6a652f92940c230ca2d46e5f2920d6ee62820ec35c168455463208d859eced",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_strict/main_effects.csv",
+      "source_sha256": "7b9382b5545269f3e04645c33913019251694d5bb09e6f773e0ca867767eee18",
+      "release_sha256": "7b9382b5545269f3e04645c33913019251694d5bb09e6f773e0ca867767eee18",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_strict/main_effects_within_region_sd.csv",
+      "source_sha256": "9347603b0f6b26f3463542bead1eac609625f8b1787177a77cd1df4db1f40174",
+      "release_sha256": "9347603b0f6b26f3463542bead1eac609625f8b1787177a77cd1df4db1f40174",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_strict/moderators.csv",
+      "source_sha256": "952f85455d18ce7c7ff8bf475802bc370d6f82ce9438ee2061e1bee66ec66f46",
+      "release_sha256": "952f85455d18ce7c7ff8bf475802bc370d6f82ce9438ee2061e1bee66ec66f46",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_strict/primary_family.csv",
+      "source_sha256": "7a5dece71deab755d9615b52fb6e735e9d53850ffc1ab1a57d9324bdc39793d9",
+      "release_sha256": "7a5dece71deab755d9615b52fb6e735e9d53850ffc1ab1a57d9324bdc39793d9",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_strict/robustness.csv",
+      "source_sha256": "4f38b0cde812d895870951ca7de74c1624f5ce58aa7737f89894e540e1dedf3f",
+      "release_sha256": "4f38b0cde812d895870951ca7de74c1624f5ce58aa7737f89894e540e1dedf3f",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_strict/secondary_family.csv",
+      "source_sha256": "dabd7fafab3643fbe84e6ffc41f114e249ac1387f9dbfec0bae5b2c71a60514d",
+      "release_sha256": "dabd7fafab3643fbe84e6ffc41f114e249ac1387f9dbfec0bae5b2c71a60514d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/holdout_strict/twoway_design.csv",
+      "source_sha256": "f56b17de7004b248d3056ed05460a0b454b71b76ebcc4d5f822eb7ad3087fd2e",
+      "release_sha256": "f56b17de7004b248d3056ed05460a0b454b71b76ebcc4d5f822eb7ad3087fd2e",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/step0/balance_focal_pairs.csv",
+      "source_sha256": "961299537c408923a48ff82af3af52097593449b02bb9061a092fbeb97cbc574",
+      "release_sha256": "961299537c408923a48ff82af3af52097593449b02bb9061a092fbeb97cbc574",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/step0/balance_focal_pairs_position_matched.csv",
+      "source_sha256": "e9f55d859bdecf8bd954ea571d8c6fc21a589002eb5369eda52fc9aaf5a5f947",
+      "release_sha256": "e9f55d859bdecf8bd954ea571d8c6fc21a589002eb5369eda52fc9aaf5a5f947",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/step0/own_behaviour_validity.csv",
+      "source_sha256": "64aeb737167e90f1dacec2f5c938177effbdc19f9f58da43b284dbdff1032387",
+      "release_sha256": "64aeb737167e90f1dacec2f5c938177effbdc19f9f58da43b284dbdff1032387",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/step0/repeat_encounters.csv",
+      "source_sha256": "b2ff26be99437d6d116c6a7378120e803a8c8f62fdddfed44dfea13cc8a5f45b",
+      "release_sha256": "b2ff26be99437d6d116c6a7378120e803a8c8f62fdddfed44dfea13cc8a5f45b",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/step0/sample_structure.csv",
+      "source_sha256": "1b1b07b8492aa709a62f58790626f76e49de5bc57a87664d6492b582b20e8607",
+      "release_sha256": "1b1b07b8492aa709a62f58790626f76e49de5bc57a87664d6492b582b20e8607",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/step0/type_correlations.csv",
+      "source_sha256": "c2cae229cc200f5809fd38f0d5e7b8b85a4aea6b81f0223d458973f4636fa5ff",
+      "release_sha256": "c2cae229cc200f5809fd38f0d5e7b8b85a4aea6b81f0223d458973f4636fa5ff",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/step0/type_counts.csv",
+      "source_sha256": "7121a946580bb5c70c78f924ea5ed04308056cba98a7e94cc80a5715586f43a3",
+      "release_sha256": "7121a946580bb5c70c78f924ea5ed04308056cba98a7e94cc80a5715586f43a3",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/step0/type_counts_by_tier.csv",
+      "source_sha256": "03d5eb4440d433b4ee46b563c7ef21a754ebf6e8bbfc286938757d25e644ac54",
+      "release_sha256": "03d5eb4440d433b4ee46b563c7ef21a754ebf6e8bbfc286938757d25e644ac54",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/step0/type_reliability.csv",
+      "source_sha256": "96855beba1a54f1c98d26ac1a36615711b2865074ea3de664e1023e9119fdd33",
+      "release_sha256": "96855beba1a54f1c98d26ac1a36615711b2865074ea3de664e1023e9119fdd33",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/discovery_primary_six/champion_decomposition.csv",
+      "source_sha256": "6dac3b3ccfb4ad11464059928224befe3ad93887de08c2f4ea12cb2a07649f78",
+      "release_sha256": "6dac3b3ccfb4ad11464059928224befe3ad93887de08c2f4ea12cb2a07649f78",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/discovery_primary_six/cliffs_delta.csv",
+      "source_sha256": "50ed56b847dee7e0d46d56feb9e1d9d766e3d153b8761051f5595d9bf66a5d39",
+      "release_sha256": "50ed56b847dee7e0d46d56feb9e1d9d766e3d153b8761051f5595d9bf66a5d39",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/discovery_primary_six/percentile_gradients.csv",
+      "source_sha256": "0a7e1bef602643030b132bd2cfab5acb458c6e5405347b4f9e16742b3df3cc20",
+      "release_sha256": "0a7e1bef602643030b132bd2cfab5acb458c6e5405347b4f9e16742b3df3cc20",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/discovery_primary_six/ping_composition.csv",
+      "source_sha256": "eaf31b7cef2b9ea4a30fc06984197610272ded371a1067802e93ae4ee459e4f2",
+      "release_sha256": "eaf31b7cef2b9ea4a30fc06984197610272ded371a1067802e93ae4ee459e4f2",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/discovery_primary_six/regional_contrasts_natural.csv",
+      "source_sha256": "4c2b1ba253870b255ed58346117e05d7a46dafd7356f41fa2f7da964e921c4c4",
+      "release_sha256": "4c2b1ba253870b255ed58346117e05d7a46dafd7356f41fa2f7da964e921c4c4",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/discovery_primary_six/regional_means_natural.csv",
+      "source_sha256": "378126dd67a83e34b98a29f466605b7f5e756928e009b5306adabfea82bf087e",
+      "release_sha256": "378126dd67a83e34b98a29f466605b7f5e756928e009b5306adabfea82bf087e",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/discovery_primary_six/regional_rank_orders.csv",
+      "source_sha256": "96fd8aac9f84a0a3d8ad1452b82d71ddd94dd3c1e7b478d7a0e97a16e4e7f2b9",
+      "release_sha256": "96fd8aac9f84a0a3d8ad1452b82d71ddd94dd3c1e7b478d7a0e97a16e4e7f2b9",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/discovery_primary_six/same_champion_examples.csv",
+      "source_sha256": "c03b4027dbfe226b259a1ea84d36d688d69d8827d2056da9ba34493f509aeac0",
+      "release_sha256": "c03b4027dbfe226b259a1ea84d36d688d69d8827d2056da9ba34493f509aeac0",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_primary_six/champion_decomposition.csv",
+      "source_sha256": "c4247aa1b7c189629cdba56279cb93ab9fb0a3a52651807b8df9e0fc8c0c1307",
+      "release_sha256": "c4247aa1b7c189629cdba56279cb93ab9fb0a3a52651807b8df9e0fc8c0c1307",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_primary_six/cliffs_delta.csv",
+      "source_sha256": "76fec740d7fb41436626429c0bd5d2f36627d22dfa9d656b7417040160609e67",
+      "release_sha256": "76fec740d7fb41436626429c0bd5d2f36627d22dfa9d656b7417040160609e67",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_primary_six/percentile_gradients.csv",
+      "source_sha256": "7aabe37512e8fdbe1896becfb6d98606fa63bd0104053eb837d8f95c3b62866a",
+      "release_sha256": "7aabe37512e8fdbe1896becfb6d98606fa63bd0104053eb837d8f95c3b62866a",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_primary_six/ping_composition.csv",
+      "source_sha256": "5ee5affb583cdaeb484cae0a14e60edd468dd549278b2c470203a9cc0c94b58a",
+      "release_sha256": "5ee5affb583cdaeb484cae0a14e60edd468dd549278b2c470203a9cc0c94b58a",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_primary_six/regional_contrasts_natural.csv",
+      "source_sha256": "cad6153d13d74b59f1b87484b19cf42067a779624428328041b4cb604670c83f",
+      "release_sha256": "cad6153d13d74b59f1b87484b19cf42067a779624428328041b4cb604670c83f",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_primary_six/regional_means_natural.csv",
+      "source_sha256": "4d7334dcadb92532ee1864fc8adf425848b9a32cdc5dc8fd440d78fc1cebbbe3",
+      "release_sha256": "4d7334dcadb92532ee1864fc8adf425848b9a32cdc5dc8fd440d78fc1cebbbe3",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_primary_six/regional_rank_orders.csv",
+      "source_sha256": "e878fc4c90939896ddd039fee971ad6ea2205f4287d6a95a4280e24a81177ac5",
+      "release_sha256": "e878fc4c90939896ddd039fee971ad6ea2205f4287d6a95a4280e24a81177ac5",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_primary_six/same_champion_examples.csv",
+      "source_sha256": "93d794430a78419e36f0283e3c83b5159673654471e20a258056dcf56a825287",
+      "release_sha256": "93d794430a78419e36f0283e3c83b5159673654471e20a258056dcf56a825287",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_strict_six/champion_decomposition.csv",
+      "source_sha256": "8a9ce0e9605b2c7ab088590b3de69f13ec3fda91d93ff03c404b846b0112f29d",
+      "release_sha256": "8a9ce0e9605b2c7ab088590b3de69f13ec3fda91d93ff03c404b846b0112f29d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_strict_six/cliffs_delta.csv",
+      "source_sha256": "4302d50c890d2db19b6d2537a047739f013dade76760bf0c4e99bb6c443cce14",
+      "release_sha256": "4302d50c890d2db19b6d2537a047739f013dade76760bf0c4e99bb6c443cce14",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_strict_six/percentile_gradients.csv",
+      "source_sha256": "0ffb12900cd6aad14b00f7d1a910e36791cc10271f620447c86d22a775b62395",
+      "release_sha256": "0ffb12900cd6aad14b00f7d1a910e36791cc10271f620447c86d22a775b62395",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_strict_six/ping_composition.csv",
+      "source_sha256": "63df5155bf9d2ae1a269a3c7d1f20ea765af4a3a4b0b0eea0de826bf135332a5",
+      "release_sha256": "63df5155bf9d2ae1a269a3c7d1f20ea765af4a3a4b0b0eea0de826bf135332a5",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_strict_six/regional_contrasts_natural.csv",
+      "source_sha256": "3f046f4a43f0f31f6f03165b5320edeed7262634aabeaf58158d1136b66bb9be",
+      "release_sha256": "3f046f4a43f0f31f6f03165b5320edeed7262634aabeaf58158d1136b66bb9be",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_strict_six/regional_means_natural.csv",
+      "source_sha256": "3a61837cb5592e4dda97ad1a1eba8d5a423f528a58292a48d0dcc01dbcdc4621",
+      "release_sha256": "3a61837cb5592e4dda97ad1a1eba8d5a423f528a58292a48d0dcc01dbcdc4621",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_strict_six/regional_rank_orders.csv",
+      "source_sha256": "5eeff06ed7e24b60bd54db36d30a45280a5665a98b73d8af31afdcc84060ecab",
+      "release_sha256": "5eeff06ed7e24b60bd54db36d30a45280a5665a98b73d8af31afdcc84060ecab",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/holdout_strict_six/same_champion_examples.csv",
+      "source_sha256": "93d794430a78419e36f0283e3c83b5159673654471e20a258056dcf56a825287",
+      "release_sha256": "93d794430a78419e36f0283e3c83b5159673654471e20a258056dcf56a825287",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/replication_verdicts_primary.csv",
+      "source_sha256": "45e6613115b72927e993cbc60f3cdca60c7026e8aaec6dec951c86c446aa01c3",
+      "release_sha256": "45e6613115b72927e993cbc60f3cdca60c7026e8aaec6dec951c86c446aa01c3",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/replication_verdicts_strict.csv",
+      "source_sha256": "5edec2b04d30a37263c020fb72b9b0a443b5a370d304bfd29fca5f2f8aa12816",
+      "release_sha256": "5edec2b04d30a37263c020fb72b9b0a443b5a370d304bfd29fca5f2f8aa12816",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study3/study1_patterns_side_by_side.csv",
+      "source_sha256": "88ad62f79b5dcc2089a631341a3f7f89d611fc86c80f8b1c56d40a292f173a12",
+      "release_sha256": "88ad62f79b5dcc2089a631341a3f7f89d611fc86c80f8b1c56d40a292f173a12",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/correction_comparison.csv",
+      "source_sha256": "d87d98dd8a76885088237f17c3cab9c7ae53fadb88a4fe0d8c63f1188a40f071",
+      "release_sha256": "d87d98dd8a76885088237f17c3cab9c7ae53fadb88a4fe0d8c63f1188a40f071",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/discovery/cluster_covariance_diagnostics.csv",
+      "source_sha256": "7b69d8cd5da9614e06857df2531c6d96e5f24ee7e8d956ef5a70ca9765156085",
+      "release_sha256": "7b69d8cd5da9614e06857df2531c6d96e5f24ee7e8d956ef5a70ca9765156085",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/discovery/cluster_covariance_source.csv",
+      "source_sha256": "fcd544d42faf1397d618116f3a77c6fba82f8023efb8469228a6700e0b6afd41",
+      "release_sha256": "fcd544d42faf1397d618116f3a77c6fba82f8023efb8469228a6700e0b6afd41",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/discovery/cluster_sensitivity.csv",
+      "source_sha256": "16eeb13170531beed2e6078d9912a4f80daccbef53f93c4286a1f97418bf4386",
+      "release_sha256": "16eeb13170531beed2e6078d9912a4f80daccbef53f93c4286a1f97418bf4386",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/discovery/dynamics.csv",
+      "source_sha256": "3d01f2b48f857be30baef788bf958e5311861f4b86ea579561608f200c0839f9",
+      "release_sha256": "3d01f2b48f857be30baef788bf958e5311861f4b86ea579561608f200c0839f9",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/discovery/dynamics_self.csv",
+      "source_sha256": "b1d54cb63a7d1665af345eaf009369a443f25af46ad44e9cb912bf41df97b5c0",
+      "release_sha256": "b1d54cb63a7d1665af345eaf009369a443f25af46ad44e9cb912bf41df97b5c0",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/discovery/main_effects.csv",
+      "source_sha256": "80ef6fa6e136a38178b75fa8e0c9bd605be03e3122a2abccccbe801bd61839f1",
+      "release_sha256": "80ef6fa6e136a38178b75fa8e0c9bd605be03e3122a2abccccbe801bd61839f1",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/discovery/moderators.csv",
+      "source_sha256": "0b77cfe1460f5d0d1b7021497bfa82a1ddf63bde0bd2595d04f46256b6b23bf3",
+      "release_sha256": "0b77cfe1460f5d0d1b7021497bfa82a1ddf63bde0bd2595d04f46256b6b23bf3",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/discovery/own_model_raw.csv",
+      "source_sha256": "cb56ebaab05b135fad52478a708b10c395df74641450af4cc99c33ac27b7bca2",
+      "release_sha256": "cb56ebaab05b135fad52478a708b10c395df74641450af4cc99c33ac27b7bca2",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/discovery/own_tendency_associations.csv",
+      "source_sha256": "e0898188229423d2e0163d55f59b605cdccaf36fd07c9a5fe56aa83934448aa6",
+      "release_sha256": "e0898188229423d2e0163d55f59b605cdccaf36fd07c9a5fe56aa83934448aa6",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/discovery/primary_family.csv",
+      "source_sha256": "cc28ae224e6038e4fcc673eea6db54a34fe5ab3f654bd68ed8069fb63bf6cbd3",
+      "release_sha256": "cc28ae224e6038e4fcc673eea6db54a34fe5ab3f654bd68ed8069fb63bf6cbd3",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/discovery/robustness.csv",
+      "source_sha256": "cb7ae047fcf2fa8f778920d5f77e8d51921b344101315d0fd79b09768848aecc",
+      "release_sha256": "cb7ae047fcf2fa8f778920d5f77e8d51921b344101315d0fd79b09768848aecc",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/holdout/cluster_covariance_diagnostics.csv",
+      "source_sha256": "b354cfdbc63500727c3570b573991eadb106c05659b662ed1d6e30fe1249ba3e",
+      "release_sha256": "b354cfdbc63500727c3570b573991eadb106c05659b662ed1d6e30fe1249ba3e",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/holdout/cluster_covariance_source.csv",
+      "source_sha256": "c76110f7d467fb745375be61ac13ecd50f4def0308671f207b703d636da81f47",
+      "release_sha256": "c76110f7d467fb745375be61ac13ecd50f4def0308671f207b703d636da81f47",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/holdout/cluster_sensitivity.csv",
+      "source_sha256": "1d35d6fee4a3e6fe45c9ebf3e58326c78079c1412d81904a04ca161a1ab12eec",
+      "release_sha256": "1d35d6fee4a3e6fe45c9ebf3e58326c78079c1412d81904a04ca161a1ab12eec",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/holdout/dynamics.csv",
+      "source_sha256": "22d2725147e3768e0cb24ba7c199768f15042524b659d3284ea352944b5b507e",
+      "release_sha256": "22d2725147e3768e0cb24ba7c199768f15042524b659d3284ea352944b5b507e",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/holdout/dynamics_self.csv",
+      "source_sha256": "96c78818141634f3da8697d50e0ea43fa0f53da01531091888f854e68763d71a",
+      "release_sha256": "96c78818141634f3da8697d50e0ea43fa0f53da01531091888f854e68763d71a",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/holdout/main_effects.csv",
+      "source_sha256": "aa3eb1a05e61a419ce52d7ebfa6a17fc07df08a608acd303931e28268298a716",
+      "release_sha256": "aa3eb1a05e61a419ce52d7ebfa6a17fc07df08a608acd303931e28268298a716",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/holdout/moderators.csv",
+      "source_sha256": "d5ac5acbd9b5fa7b47e839a56e1f5bcdc360c3232b9b9ba3d4550ed124202868",
+      "release_sha256": "d5ac5acbd9b5fa7b47e839a56e1f5bcdc360c3232b9b9ba3d4550ed124202868",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/holdout/own_model_raw.csv",
+      "source_sha256": "214521422f86934dbac666f2a882b62c6af5a1fc42935b5fbfd64b0968c561d6",
+      "release_sha256": "214521422f86934dbac666f2a882b62c6af5a1fc42935b5fbfd64b0968c561d6",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/holdout/own_tendency_associations.csv",
+      "source_sha256": "247621e0393741cca9f3352468aba8c5acaca8820985e030f3424225daaf13ce",
+      "release_sha256": "247621e0393741cca9f3352468aba8c5acaca8820985e030f3424225daaf13ce",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/holdout/primary_family.csv",
+      "source_sha256": "f300c242d8b372e45be8fa3a3a4f8efc0696a7d9fc5e1c0e451dd392f2badeab",
+      "release_sha256": "f300c242d8b372e45be8fa3a3a4f8efc0696a7d9fc5e1c0e451dd392f2badeab",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/holdout/robustness.csv",
+      "source_sha256": "fd96ca923827d9adda5a2126c35691caba97ce2c0507bfd9c2641843f0359546",
+      "release_sha256": "fd96ca923827d9adda5a2126c35691caba97ce2c0507bfd9c2641843f0359546",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/own_tendency_figure_source.csv",
+      "source_sha256": "8f5d631ab15f264b005b8004e58dcc60eecf26252345c6c64477d13b797ba769",
+      "release_sha256": "8f5d631ab15f264b005b8004e58dcc60eecf26252345c6c64477d13b797ba769",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/region_definition_audit.csv",
+      "source_sha256": "404a5c723f083a3c0cddaf6ac00205f015230bcb44576de1c1c64b9db59b3ad4",
+      "release_sha256": "404a5c723f083a3c0cddaf6ac00205f015230bcb44576de1c1c64b9db59b3ad4",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/regional_heterogeneity.csv",
+      "source_sha256": "f1013c8e2d7621862b125f96a58f03ee487657090f46b3249132efd184346336",
+      "release_sha256": "f1013c8e2d7621862b125f96a58f03ee487657090f46b3249132efd184346336",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/replication_classification.csv",
+      "source_sha256": "b3d5c82bae47664ffe4c1d162676d04f49cc91fda76f15dc18892d316db4e16f",
+      "release_sha256": "b3d5c82bae47664ffe4c1d162676d04f49cc91fda76f15dc18892d316db4e16f",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/sample_counts.csv",
+      "source_sha256": "839c7d977a5333d3f2a2971c4acdedfaecb419990ba3c4c942bd26cf8eaf49d5",
+      "release_sha256": "839c7d977a5333d3f2a2971c4acdedfaecb419990ba3c4c942bd26cf8eaf49d5",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/sample_overlap.csv",
+      "source_sha256": "8cb91254161f7111f4acf257473d8a8551edcb31606ec4993aa85ce0c2fba11c",
+      "release_sha256": "8cb91254161f7111f4acf257473d8a8551edcb31606ec4993aa85ce0c2fba11c",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/sample_range_for_word.csv",
+      "source_sha256": "506d5b390c00fdc41e45fb8233a7ed0be4f632eb0bdc3e43f85c7abefcd0affe",
+      "release_sha256": "506d5b390c00fdc41e45fb8233a7ed0be4f632eb0bdc3e43f85c7abefcd0affe",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/strict/cluster_covariance_diagnostics.csv",
+      "source_sha256": "f5bfe9f5d04031ac25c8c54b3156b9410c59c0f488aa5ec99e9bc2bf58edd410",
+      "release_sha256": "f5bfe9f5d04031ac25c8c54b3156b9410c59c0f488aa5ec99e9bc2bf58edd410",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/strict/cluster_covariance_source.csv",
+      "source_sha256": "d275297916fe529b3e623cb3d4c9cac1e2cf48c22d842fd2d4d4cfd1e0fd9ef0",
+      "release_sha256": "d275297916fe529b3e623cb3d4c9cac1e2cf48c22d842fd2d4d4cfd1e0fd9ef0",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/strict/cluster_sensitivity.csv",
+      "source_sha256": "9b7611d4dd6626c602d52f1e633edb8f5d1b55df0a8885b4acfe97ca2b432c1d",
+      "release_sha256": "9b7611d4dd6626c602d52f1e633edb8f5d1b55df0a8885b4acfe97ca2b432c1d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/strict/dynamics.csv",
+      "source_sha256": "23644ba921d83e7842dbd1be385219cfbb36448415fe636bcfe2531585e90b04",
+      "release_sha256": "23644ba921d83e7842dbd1be385219cfbb36448415fe636bcfe2531585e90b04",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/strict/dynamics_self.csv",
+      "source_sha256": "1bce2e883a02cee02cc05a0ba1844382dfef47642cce2c1d23ad6dce0cb337a1",
+      "release_sha256": "1bce2e883a02cee02cc05a0ba1844382dfef47642cce2c1d23ad6dce0cb337a1",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/strict/main_effects.csv",
+      "source_sha256": "50ed6f6b073dbbfab58b512351fdd5122d5f109da0d01a7333fd8a911d6f570f",
+      "release_sha256": "50ed6f6b073dbbfab58b512351fdd5122d5f109da0d01a7333fd8a911d6f570f",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/strict/moderators.csv",
+      "source_sha256": "d7a61e3f3e6cb5c4ac96f98c4eacb9276409c89c1bdbde9bfc79a5a5b3b60368",
+      "release_sha256": "d7a61e3f3e6cb5c4ac96f98c4eacb9276409c89c1bdbde9bfc79a5a5b3b60368",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/strict/own_tendency_associations.csv",
+      "source_sha256": "cae815d0e5626346cb983f0236ebef36fbe617030e1bded16ae6041299a54df3",
+      "release_sha256": "cae815d0e5626346cb983f0236ebef36fbe617030e1bded16ae6041299a54df3",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/strict/primary_family.csv",
+      "source_sha256": "47037de2f1feda9b8fe41b6441888104f268c3fe26845a6ce1dd168216ec8acf",
+      "release_sha256": "47037de2f1feda9b8fe41b6441888104f268c3fe26845a6ce1dd168216ec8acf",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/study2/holdout_strict/dynamics.csv",
+      "source_sha256": "5f4b94db124c485a99a642997389e277f7244918a72d0c7efaa8c14283ca4acd",
+      "release_sha256": "5f4b94db124c485a99a642997389e277f7244918a72d0c7efaa8c14283ca4acd",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/study2/holdout_strict/dynamics_self.csv",
+      "source_sha256": "9282f446bb7863de2bee8ab30207af8bd5e1dbff136c6caa5bdc2b4e3b65c892",
+      "release_sha256": "9282f446bb7863de2bee8ab30207af8bd5e1dbff136c6caa5bdc2b4e3b65c892",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/study2/holdout_strict/main_effects.csv",
+      "source_sha256": "e77dc730da97fcd75b99b5b032e2bd15cc2bbe78c8a6365abeeda19207b6ba54",
+      "release_sha256": "e77dc730da97fcd75b99b5b032e2bd15cc2bbe78c8a6365abeeda19207b6ba54",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/study2/holdout_strict/main_effects_within_region_sd.csv",
+      "source_sha256": "069577627f6a3aad380bff55ff45dd49cd359ef1532ac23877f24ab3589fcad5",
+      "release_sha256": "069577627f6a3aad380bff55ff45dd49cd359ef1532ac23877f24ab3589fcad5",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/study2/holdout_strict/moderators.csv",
+      "source_sha256": "9bc52ed172470651ae183e62913271e63cad85814d98565df07bd4352b40addd",
+      "release_sha256": "9bc52ed172470651ae183e62913271e63cad85814d98565df07bd4352b40addd",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/study2/holdout_strict/primary_family.csv",
+      "source_sha256": "9e3e76bcc87c98636c48fdc67044f36c8176fd27eb71fd19c7708ada5f3e18b9",
+      "release_sha256": "9e3e76bcc87c98636c48fdc67044f36c8176fd27eb71fd19c7708ada5f3e18b9",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/study2/holdout_strict/secondary_family.csv",
+      "source_sha256": "49eb77021334b82c483f5d1ea5842b77265232bed96a5eecd0d477fd325bae6b",
+      "release_sha256": "49eb77021334b82c483f5d1ea5842b77265232bed96a5eecd0d477fd325bae6b",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/peer/study2/holdout_strict/twoway_design.csv",
+      "source_sha256": "502ab488fb22be57f4c40aac18d6d25eec45351bd2a049e2344d1692fb428ee5",
+      "release_sha256": "502ab488fb22be57f4c40aac18d6d25eec45351bd2a049e2344d1692fb428ee5",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/regional_performance/discovery_region_prefix_sensitivity.csv",
+      "source_sha256": "8e3169207b7fddc221f6cc9fc346b1f7aacfb3a879277ca6fc9bc969b91f4022",
+      "release_sha256": "8e3169207b7fddc221f6cc9fc346b1f7aacfb3a879277ca6fc9bc969b91f4022",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/regional_performance/percentile_curves.csv",
+      "source_sha256": "1b55ba6f7ef398278ecc5e594a065f7227e7d82cd3de4649888de90c098d35b8",
+      "release_sha256": "1b55ba6f7ef398278ecc5e594a065f7227e7d82cd3de4649888de90c098d35b8",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/regional_performance/percentile_gradients.csv",
+      "source_sha256": "4a373b363a9fe610658a4c1d3e61976abbacebe87f28da26688a27a38ba5a111",
+      "release_sha256": "4a373b363a9fe610658a4c1d3e61976abbacebe87f28da26688a27a38ba5a111",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/regional_performance/performance_models.csv",
+      "source_sha256": "aa7e733154bdcb21100e56a773bfb3b1899f09c24e8c7c8f7f7770fe8e0f8ad8",
+      "release_sha256": "aa7e733154bdcb21100e56a773bfb3b1899f09c24e8c7c8f7f7770fe8e0f8ad8",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/regional_performance/performance_probability_curves.csv",
+      "source_sha256": "4d575e406dc2ba5ab2a9b5abd213a86e95dd0894b88d24a5e4c54e51c673b914",
+      "release_sha256": "4d575e406dc2ba5ab2a9b5abd213a86e95dd0894b88d24a5e4c54e51c673b914",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/regional_performance/performance_support.csv",
+      "source_sha256": "135f5c28c49731dd5d1c10f46187d9b13fc495a8f4dce18f8da92bf12f1ca1d1",
+      "release_sha256": "135f5c28c49731dd5d1c10f46187d9b13fc495a8f4dce18f8da92bf12f1ca1d1",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/regional_performance/ping_composition_adjusted.csv",
+      "source_sha256": "c29c37c866b8978689db0fad7c04cf3d213e54dc0af8f715fa6d11ea3eb3f324",
+      "release_sha256": "c29c37c866b8978689db0fad7c04cf3d213e54dc0af8f715fa6d11ea3eb3f324",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/regional_performance/ping_composition_contrasts.csv",
+      "source_sha256": "7608c347d887f4f925e6c2ad750fa7c67b105b6a14211c7e5eece30a0fbde3b5",
+      "release_sha256": "7608c347d887f4f925e6c2ad750fa7c67b105b6a14211c7e5eece30a0fbde3b5",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/regional_performance/ping_composition_old_new.csv",
+      "source_sha256": "14700731fe7317e2f901d277f07f07594dd7cf4310cce56170f710b78419a3e3",
+      "release_sha256": "14700731fe7317e2f901d277f07f07594dd7cf4310cce56170f710b78419a3e3",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/tables/regional_performance/regional_natural_units_existing.csv",
+      "source_sha256": "37e256d58b13028392051b48d0a2e4a7d1394418bf908d614ea2d8766287768d",
+      "release_sha256": "37e256d58b13028392051b48d0a2e4a7d1394418bf908d614ea2d8766287768d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/theory/tables/adjusted_means.csv",
+      "source_sha256": "05daaa39a401e7b3d3babe0259b57a5b2991b6213a36a2136acbc15376fb4079",
+      "release_sha256": "05daaa39a401e7b3d3babe0259b57a5b2991b6213a36a2136acbc15376fb4079",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/theory/tables/common_direction.csv",
+      "source_sha256": "c4b1f652a9b3046f4b334285c81f25838ee1c07e5ac822aadb0ca6f6dcc5eda8",
+      "release_sha256": "c4b1f652a9b3046f4b334285c81f25838ee1c07e5ac822aadb0ca6f6dcc5eda8",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/theory/tables/convergence_tests.csv",
+      "source_sha256": "4aecf641fbe3f50ff99a8294dd20c04264287a7e4dee9a8f85902d98cddde414",
+      "release_sha256": "4aecf641fbe3f50ff99a8294dd20c04264287a7e4dee9a8f85902d98cddde414",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/theory/tables/role_order.csv",
+      "source_sha256": "3eeb710f3bf2e2dba231b40763ade3cf45428d45d0b20b132c767653939123a6",
+      "release_sha256": "3eeb710f3bf2e2dba231b40763ade3cf45428d45d0b20b132c767653939123a6",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/theory/tables/role_pair_counts.csv",
+      "source_sha256": "c6a829aba0b2ddbc6aa1164b99f4888d6f24c03ded2bacf97f72f2b5a051512a",
+      "release_sha256": "c6a829aba0b2ddbc6aa1164b99f4888d6f24c03ded2bacf97f72f2b5a051512a",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/theory/tables/role_pair_results.csv",
+      "source_sha256": "b9584d5887fc4e4f5d19b30cefe13b7552cadf361b06780cf4ecd5688a0e69cb",
+      "release_sha256": "b9584d5887fc4e4f5d19b30cefe13b7552cadf361b06780cf4ecd5688a0e69cb",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/theory/tables/signal_tier_shares.csv",
+      "source_sha256": "8748a53cff3de2229d433e214850b1d26f4d2f51ead885cc7da0a8985545f986",
+      "release_sha256": "8748a53cff3de2229d433e214850b1d26f4d2f51ead885cc7da0a8985545f986",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/theory/tables/tier_distances.csv",
+      "source_sha256": "62be5f944f03380333c9d6e0e0f95bb241fb545f693b25fb9dba1513c8b1fbad",
+      "release_sha256": "62be5f944f03380333c9d6e0e0f95bb241fb545f693b25fb9dba1513c8b1fbad",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/peer_extensions.csv",
+      "source_sha256": "7519763c217549c7378108d43407a1319ae894376dd4686c8699fc5710a8afa7",
+      "release_sha256": "7519763c217549c7378108d43407a1319ae894376dd4686c8699fc5710a8afa7",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/position_differences.csv",
+      "source_sha256": "536e31c235e6a6c4a2b5fdee34b32d947159d3ece7247c959b6561f418948c89",
+      "release_sha256": "536e31c235e6a6c4a2b5fdee34b32d947159d3ece7247c959b6561f418948c89",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/primary_extension_tests.csv",
+      "source_sha256": "1cea222f5d90d0f0c538cd99a0bdfe828077125a2966b50ac3875e16dfd57166",
+      "release_sha256": "1cea222f5d90d0f0c538cd99a0bdfe828077125a2966b50ac3875e16dfd57166",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/regional_positions.csv",
+      "source_sha256": "f5b13aef25d04b62a64f9adc5eed01cdf78d1804a650efb014023b0e2a6d6efe",
+      "release_sha256": "f5b13aef25d04b62a64f9adc5eed01cdf78d1804a650efb014023b0e2a6d6efe",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/role_scales_discovery_EUW1.csv",
+      "source_sha256": "a041c7b9044adddab959bdef65eb08da986a9cfc4e3906561da73903cdc0d1aa",
+      "release_sha256": "a041c7b9044adddab959bdef65eb08da986a9cfc4e3906561da73903cdc0d1aa",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/role_scales_discovery_KR.csv",
+      "source_sha256": "dbb4337f854f14248bf4f586c4eaa40b063f0a956c2398f47775ad5eb9c267e0",
+      "release_sha256": "dbb4337f854f14248bf4f586c4eaa40b063f0a956c2398f47775ad5eb9c267e0",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/role_scales_discovery_NA1.csv",
+      "source_sha256": "ea041f8ef2a344d6506ead9c28eb835ee05e56b647122df846b009f0dafd3357",
+      "release_sha256": "ea041f8ef2a344d6506ead9c28eb835ee05e56b647122df846b009f0dafd3357",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/role_scales_holdout_EUW1.csv",
+      "source_sha256": "970287f688841f7bcf7b7b609061401630bac282ead964a29901c6018c4897b8",
+      "release_sha256": "970287f688841f7bcf7b7b609061401630bac282ead964a29901c6018c4897b8",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/role_scales_holdout_KR.csv",
+      "source_sha256": "56a88af055a13f87c944d6414c6c0ec2a8adbc3fcea4f454323a3ab5b28f4244",
+      "release_sha256": "56a88af055a13f87c944d6414c6c0ec2a8adbc3fcea4f454323a3ab5b28f4244",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/role_scales_holdout_NA1.csv",
+      "source_sha256": "2d23aca587b3698429bced48cbc906efbe4d465e1264bf2b50e4254714b1633d",
+      "release_sha256": "2d23aca587b3698429bced48cbc906efbe4d465e1264bf2b50e4254714b1633d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/role_scales_strict_EUW1.csv",
+      "source_sha256": "7de9a90c89e373038e53d4af774530610297cf3d394303a25d8494706226c41b",
+      "release_sha256": "7de9a90c89e373038e53d4af774530610297cf3d394303a25d8494706226c41b",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/role_scales_strict_KR.csv",
+      "source_sha256": "7614fefcb1d083a7d3cef93b41aebc3723d989090d40bc3a82b1cfc6473899b3",
+      "release_sha256": "7614fefcb1d083a7d3cef93b41aebc3723d989090d40bc3a82b1cfc6473899b3",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/role_scales_strict_NA1.csv",
+      "source_sha256": "9976220e04c604304e77c67e4da64cafaa082199c85bdfe0a029c8a44031029b",
+      "release_sha256": "9976220e04c604304e77c67e4da64cafaa082199c85bdfe0a029c8a44031029b",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/role_specific_scales.csv",
+      "source_sha256": "01ccf045d00858526f9d7bcbd7f666e22695f666a432af39cfc38145f92ac5ed",
+      "release_sha256": "01ccf045d00858526f9d7bcbd7f666e22695f666a432af39cfc38145f92ac5ed",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/role_structure.csv",
+      "source_sha256": "625c16b1f55dddc08a2715082561b474aea7351b5c389d6adab95e6aa6d5e6fd",
+      "release_sha256": "625c16b1f55dddc08a2715082561b474aea7351b5c389d6adab95e6aa6d5e6fd",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/team_placement_associations.csv",
+      "source_sha256": "28f34bbd101c9f8f1f8524d938745234ec401724685fb280dc4481cf7dcfa9c2",
+      "release_sha256": "28f34bbd101c9f8f1f8524d938745234ec401724685fb280dc4481cf7dcfa9c2",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/tier_process_changes.csv",
+      "source_sha256": "6f898796e4a29145e792be549ec4edf50e695fd39864f3806d4cc3236a5d59b2",
+      "release_sha256": "6f898796e4a29145e792be549ec4edf50e695fd39864f3806d4cc3236a5d59b2",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/timeline_contrasts_discovery.csv",
+      "source_sha256": "b62f702d932b2b148d0d4881a44353fca55b2e1e59ff23d078a2ac38bd867ff6",
+      "release_sha256": "b62f702d932b2b148d0d4881a44353fca55b2e1e59ff23d078a2ac38bd867ff6",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/timeline_contrasts_holdout.csv",
+      "source_sha256": "e439388275f71c3960699ed71c004b53dfbbdffa1329412335b075893f86beef",
+      "release_sha256": "e439388275f71c3960699ed71c004b53dfbbdffa1329412335b075893f86beef",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/timeline_contrasts_strict.csv",
+      "source_sha256": "e7ae00da0985abeffe2316f21ecd3f0ed98d3a90deca64ad60f335ec8e1c9d92",
+      "release_sha256": "e7ae00da0985abeffe2316f21ecd3f0ed98d3a90deca64ad60f335ec8e1c9d92",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/timeline_extensions_discovery.csv",
+      "source_sha256": "165a7c3afc3bbe3ada9c9e6ca02114799e5793d11bec9fe099295c89e67fa5c3",
+      "release_sha256": "165a7c3afc3bbe3ada9c9e6ca02114799e5793d11bec9fe099295c89e67fa5c3",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/timeline_extensions_holdout.csv",
+      "source_sha256": "a2dc26a7ea303ef699f99fdd9bc06fbeb51b53a0c785155cd6e6e01826059bfb",
+      "release_sha256": "a2dc26a7ea303ef699f99fdd9bc06fbeb51b53a0c785155cd6e6e01826059bfb",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/tables/timeline_extensions_strict.csv",
+      "source_sha256": "21faf9f836aa7c1493dd2cede6e01ee6b847ed4d9c35b6596fa63375d8bb5436",
+      "release_sha256": "21faf9f836aa7c1493dd2cede6e01ee6b847ed4d9c35b6596fa63375d8bb5436",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/baseline_timeline_sensitivities.csv",
+      "source_sha256": "2b1181c6b7c97492fd257f2865d71b5b712471920fa46b1d88d1697db45360e5",
+      "release_sha256": "2b1181c6b7c97492fd257f2865d71b5b712471920fa46b1d88d1697db45360e5",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/champion_decomposition.csv",
+      "source_sha256": "40f41fd861e38dd524973a626baaa5c6337ac5600148c683efcc56840fc95138",
+      "release_sha256": "40f41fd861e38dd524973a626baaa5c6337ac5600148c683efcc56840fc95138",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/common_direction.csv",
+      "source_sha256": "c4b1f652a9b3046f4b334285c81f25838ee1c07e5ac822aadb0ca6f6dcc5eda8",
+      "release_sha256": "c4b1f652a9b3046f4b334285c81f25838ee1c07e5ac822aadb0ca6f6dcc5eda8",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/common_tier_rule.csv",
+      "source_sha256": "f79eb8f94e490a2a54f228c821fbcc33bc993b4b377b34b9b52a3dea884066ab",
+      "release_sha256": "f79eb8f94e490a2a54f228c821fbcc33bc993b4b377b34b9b52a3dea884066ab",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/convergence_tests.csv",
+      "source_sha256": "4aecf641fbe3f50ff99a8294dd20c04264287a7e4dee9a8f85902d98cddde414",
+      "release_sha256": "4aecf641fbe3f50ff99a8294dd20c04264287a7e4dee9a8f85902d98cddde414",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/discovery_cluster_sensitivity.csv",
+      "source_sha256": "16eeb13170531beed2e6078d9912a4f80daccbef53f93c4286a1f97418bf4386",
+      "release_sha256": "16eeb13170531beed2e6078d9912a4f80daccbef53f93c4286a1f97418bf4386",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/discovery_main_effects.csv",
+      "source_sha256": "80ef6fa6e136a38178b75fa8e0c9bd605be03e3122a2abccccbe801bd61839f1",
+      "release_sha256": "80ef6fa6e136a38178b75fa8e0c9bd605be03e3122a2abccccbe801bd61839f1",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/FigS1_matrices.csv",
+      "source_sha256": "7922391c067247ac289aeee9021126f9f3b8492223142c29a1a1e958d920d629",
+      "release_sha256": "7922391c067247ac289aeee9021126f9f3b8492223142c29a1a1e958d920d629",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/holdout_cluster_sensitivity.csv",
+      "source_sha256": "1d35d6fee4a3e6fe45c9ebf3e58326c78079c1412d81904a04ca161a1ab12eec",
+      "release_sha256": "1d35d6fee4a3e6fe45c9ebf3e58326c78079c1412d81904a04ca161a1ab12eec",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/holdout_main_effects.csv",
+      "source_sha256": "aa3eb1a05e61a419ce52d7ebfa6a17fc07df08a608acd303931e28268298a716",
+      "release_sha256": "aa3eb1a05e61a419ce52d7ebfa6a17fc07df08a608acd303931e28268298a716",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig1.csv",
+      "source_sha256": "e372e1be7829cf6e529d5d6d2b0908cd78592f18eaa01d3f695aada48e07c698",
+      "release_sha256": "e372e1be7829cf6e529d5d6d2b0908cd78592f18eaa01d3f695aada48e07c698",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig2a.csv",
+      "source_sha256": "6c5f9b0a1b5c1ee2ecc149b1f8255df6073e926fcb77254a218b68f9f6009dd4",
+      "release_sha256": "6c5f9b0a1b5c1ee2ecc149b1f8255df6073e926fcb77254a218b68f9f6009dd4",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig2a_tests.csv",
+      "source_sha256": "8e6cbad64f42e292b6cd986a87117facc448ddda9cd2b8a1ba22d81ddfd0855c",
+      "release_sha256": "8e6cbad64f42e292b6cd986a87117facc448ddda9cd2b8a1ba22d81ddfd0855c",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig2b.csv",
+      "source_sha256": "11fa849bf01b3de31c3b7a0a3d2e8cd9db609153df3af90cfd384282b8a91712",
+      "release_sha256": "11fa849bf01b3de31c3b7a0a3d2e8cd9db609153df3af90cfd384282b8a91712",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig2c.csv",
+      "source_sha256": "5e04253937df1d61e336016fdee24193b8207af392d790272464c8e0b4a4d3ae",
+      "release_sha256": "5e04253937df1d61e336016fdee24193b8207af392d790272464c8e0b4a4d3ae",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig2d.csv",
+      "source_sha256": "adc64b8c7576f09412ffd937debce500cb4bdb1facfc12490c25358505cf0733",
+      "release_sha256": "adc64b8c7576f09412ffd937debce500cb4bdb1facfc12490c25358505cf0733",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig3a.csv",
+      "source_sha256": "85d9852b3724edac3ed00260c57dff9b7fd3defc8df9fab801d348ba5647e79f",
+      "release_sha256": "85d9852b3724edac3ed00260c57dff9b7fd3defc8df9fab801d348ba5647e79f",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig3b.csv",
+      "source_sha256": "99a9cdc9483dd03c3dc47f8edf310e16215c0e61d687910d23af3918457fc2a3",
+      "release_sha256": "99a9cdc9483dd03c3dc47f8edf310e16215c0e61d687910d23af3918457fc2a3",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig3c.csv",
+      "source_sha256": "4e1f374bfa6ef193cff876144e6dd212eb3c627a9ea3ed26c073494657071c3b",
+      "release_sha256": "4e1f374bfa6ef193cff876144e6dd212eb3c627a9ea3ed26c073494657071c3b",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig3d.csv",
+      "source_sha256": "df5911d098b94203e58663f21d12cbe0923010a78dc7d0cb35915b6ff840a894",
+      "release_sha256": "df5911d098b94203e58663f21d12cbe0923010a78dc7d0cb35915b6ff840a894",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig3e.csv",
+      "source_sha256": "21511a2dabbe891f7e0718eaf3abc6be7d8435062e45971518334882deb4a3ee",
+      "release_sha256": "21511a2dabbe891f7e0718eaf3abc6be7d8435062e45971518334882deb4a3ee",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig3f.csv",
+      "source_sha256": "e2e0e8820719adc82b62f0b20d169ac4f1083f226af88a99907a608e0e97406a",
+      "release_sha256": "e2e0e8820719adc82b62f0b20d169ac4f1083f226af88a99907a608e0e97406a",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig4a.csv",
+      "source_sha256": "022f6055459bc8d950a5c274cc5b3fb4a2130e9e38acfbc3abe1473c538beac1",
+      "release_sha256": "022f6055459bc8d950a5c274cc5b3fb4a2130e9e38acfbc3abe1473c538beac1",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig4b.csv",
+      "source_sha256": "311a0136e5e3c484ab9d4a5bc3c0099d77556170d3e65d577229ec8688d062c9",
+      "release_sha256": "311a0136e5e3c484ab9d4a5bc3c0099d77556170d3e65d577229ec8688d062c9",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig4c.csv",
+      "source_sha256": "cdd4da729bc24548ac53fe3862984c41e68013dfeef3c97a8b3259bb4859d4cb",
+      "release_sha256": "cdd4da729bc24548ac53fe3862984c41e68013dfeef3c97a8b3259bb4859d4cb",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig4d.csv",
+      "source_sha256": "a8995d884af65ad6c590a4297bc0277bf7ba1b6b3d2e2b0970b6602bfd4acd8d",
+      "release_sha256": "a8995d884af65ad6c590a4297bc0277bf7ba1b6b3d2e2b0970b6602bfd4acd8d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig5a.csv",
+      "source_sha256": "f6e95a4fc3c8f97080eaa0813ad96bdfdaaa80f64a9fc423e6353d0820708442",
+      "release_sha256": "f6e95a4fc3c8f97080eaa0813ad96bdfdaaa80f64a9fc423e6353d0820708442",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig5b.csv",
+      "source_sha256": "30dcd6f5b74776c2dae1b2bd57e6fc437f7416848416ab9bbd96bcfeb23e2b37",
+      "release_sha256": "30dcd6f5b74776c2dae1b2bd57e6fc437f7416848416ab9bbd96bcfeb23e2b37",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig5c.csv",
+      "source_sha256": "529686199ef5e6b234330c530eecd5e497037318ba9478f285e364432d28faae",
+      "release_sha256": "529686199ef5e6b234330c530eecd5e497037318ba9478f285e364432d28faae",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig5d_curves.csv",
+      "source_sha256": "6df0789799ccf0194897f71c17caae3b9c4d70a1950d4d6d7e28a6c6f0fd6c6d",
+      "release_sha256": "6df0789799ccf0194897f71c17caae3b9c4d70a1950d4d6d7e28a6c6f0fd6c6d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig5d_support.csv",
+      "source_sha256": "ac7445280af9fe2c04b0b1cea34c7f36ca6b7f2137f4af7026180033107ef5f7",
+      "release_sha256": "ac7445280af9fe2c04b0b1cea34c7f36ca6b7f2137f4af7026180033107ef5f7",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/main/Fig5e.csv",
+      "source_sha256": "12d1cc33f5170c5fb30fe4f1da76dd6741fbcd5aa80ecad20500add82980c75f",
+      "release_sha256": "12d1cc33f5170c5fb30fe4f1da76dd6741fbcd5aa80ecad20500add82980c75f",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/metric_dictionary.csv",
+      "source_sha256": "fa77a0f668aaca67f3afc66bc791b366ecb6c37a611ddb5746dc2ffbd67f86dd",
+      "release_sha256": "fa77a0f668aaca67f3afc66bc791b366ecb6c37a611ddb5746dc2ffbd67f86dd",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/panel_index.csv",
+      "source_sha256": "e86fea6a5b69b9fcd6ce7f848a0d16105142671bb43d5d48d4445be26f662741",
+      "release_sha256": "e86fea6a5b69b9fcd6ce7f848a0d16105142671bb43d5d48d4445be26f662741",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/patch_profiles.csv",
+      "source_sha256": "ea4aaff3636bc679346168a5752cd9acbaa1f1c0bb8b90122440fee0bcce991e",
+      "release_sha256": "ea4aaff3636bc679346168a5752cd9acbaa1f1c0bb8b90122440fee0bcce991e",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/peer_sample_overlap.csv",
+      "source_sha256": "8cb91254161f7111f4acf257473d8a8551edcb31606ec4993aa85ce0c2fba11c",
+      "release_sha256": "8cb91254161f7111f4acf257473d8a8551edcb31606ec4993aa85ce0c2fba11c",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/performance_models.csv",
+      "source_sha256": "aa7e733154bdcb21100e56a773bfb3b1899f09c24e8c7c8f7f7770fe8e0f8ad8",
+      "release_sha256": "aa7e733154bdcb21100e56a773bfb3b1899f09c24e8c7c8f7f7770fe8e0f8ad8",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/player_ecdf.csv",
+      "source_sha256": "d9aa229481590d1a69d9b98565c6803a7867c931a452be4dfda781845d64ef87",
+      "release_sha256": "d9aa229481590d1a69d9b98565c6803a7867c931a452be4dfda781845d64ef87",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/player_EUW_Pearson.csv",
+      "source_sha256": "5b8aa7867c47fef481567acadc13fa6651a57e6352da6101522e5c390edf4822",
+      "release_sha256": "5b8aa7867c47fef481567acadc13fa6651a57e6352da6101522e5c390edf4822",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/player_KR_Pearson.csv",
+      "source_sha256": "f171729c11dd12a610859b1aef47638750e7ad4e2d847e1771bf1b92935533dd",
+      "release_sha256": "f171729c11dd12a610859b1aef47638750e7ad4e2d847e1771bf1b92935533dd",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/player_NA_Pearson.csv",
+      "source_sha256": "0fb95af95bd73bd55745a410c4d033015cc77992649f48d89f2c7fe3c25dd2e7",
+      "release_sha256": "0fb95af95bd73bd55745a410c4d033015cc77992649f48d89f2c7fe3c25dd2e7",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/relationship_summaries.csv",
+      "source_sha256": "95ea86ed67406b7db54b2b2e17b829af3ba5e10521e6202040fb513b84716004",
+      "release_sha256": "95ea86ed67406b7db54b2b2e17b829af3ba5e10521e6202040fb513b84716004",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/role_pair_counts.csv",
+      "source_sha256": "c6a829aba0b2ddbc6aa1164b99f4888d6f24c03ded2bacf97f72f2b5a051512a",
+      "release_sha256": "c6a829aba0b2ddbc6aa1164b99f4888d6f24c03ded2bacf97f72f2b5a051512a",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/role_pair_results.csv",
+      "source_sha256": "b9584d5887fc4e4f5d19b30cefe13b7552cadf361b06780cf4ecd5688a0e69cb",
+      "release_sha256": "b9584d5887fc4e4f5d19b30cefe13b7552cadf361b06780cf4ecd5688a0e69cb",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/score_transformations.csv",
+      "source_sha256": "b0ac6c91b12696c55e4ef0b88b8c2424e1e69a61b1a63e33a1e7e609a529bde3",
+      "release_sha256": "b0ac6c91b12696c55e4ef0b88b8c2424e1e69a61b1a63e33a1e7e609a529bde3",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/server_sensitivity.csv",
+      "source_sha256": "8e3169207b7fddc221f6cc9fc346b1f7aacfb3a879277ca6fc9bc969b91f4022",
+      "release_sha256": "8e3169207b7fddc221f6cc9fc346b1f7aacfb3a879277ca6fc9bc969b91f4022",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/signal_occurrence.csv",
+      "source_sha256": "2ebd956b0b743f13ea0220e84fafc1287cbcc0f462e80a5e70c4f707fde9d7ff",
+      "release_sha256": "2ebd956b0b743f13ea0220e84fafc1287cbcc0f462e80a5e70c4f707fde9d7ff",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/strict_cluster_sensitivity.csv",
+      "source_sha256": "9b7611d4dd6626c602d52f1e633edb8f5d1b55df0a8885b4acfe97ca2b432c1d",
+      "release_sha256": "9b7611d4dd6626c602d52f1e633edb8f5d1b55df0a8885b4acfe97ca2b432c1d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/strict_main_effects.csv",
+      "source_sha256": "50ed6f6b073dbbfab58b512351fdd5122d5f109da0d01a7333fd8a911d6f570f",
+      "release_sha256": "50ed6f6b073dbbfab58b512351fdd5122d5f109da0d01a7333fd8a911d6f570f",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS7a.csv",
+      "source_sha256": "2f6ced4428fb01464c94b18a65878f2f6bf708ab32357f6f32b7e64df6d9dcb4",
+      "release_sha256": "2f6ced4428fb01464c94b18a65878f2f6bf708ab32357f6f32b7e64df6d9dcb4",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS7b.csv",
+      "source_sha256": "20267ca559a21c6097cb85436b67d9092f65d977d5cc11d05a7af966cf27d06d",
+      "release_sha256": "20267ca559a21c6097cb85436b67d9092f65d977d5cc11d05a7af966cf27d06d",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS7c.csv",
+      "source_sha256": "5cdb188da0a052d1510850e5709c27de249c67dfb525870967b5e265634aa001",
+      "release_sha256": "5cdb188da0a052d1510850e5709c27de249c67dfb525870967b5e265634aa001",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS7d.csv",
+      "source_sha256": "3a20232ef84047c03492e5a768e075ccb414d2aa41b1d4f291c07cba577db180",
+      "release_sha256": "3a20232ef84047c03492e5a768e075ccb414d2aa41b1d4f291c07cba577db180",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8a.csv",
+      "source_sha256": "7846edabb7bf11afb9d441448632a1b6122731a2a0a1cfcf6221301a66521fe5",
+      "release_sha256": "7846edabb7bf11afb9d441448632a1b6122731a2a0a1cfcf6221301a66521fe5",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8b.csv",
+      "source_sha256": "b6993c65857c56792dab59218f03b560534d5972cc65df452ad580874881677e",
+      "release_sha256": "b6993c65857c56792dab59218f03b560534d5972cc65df452ad580874881677e",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8c.csv",
+      "source_sha256": "49c740b7ea40245638153c921e670770b49f6758f11b0862335b667dc4d72ef6",
+      "release_sha256": "49c740b7ea40245638153c921e670770b49f6758f11b0862335b667dc4d72ef6",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8d_discovery.csv",
+      "source_sha256": "a461486a9065e06035adf22f9c5f13447ed2237f61866d369e72686e42532f79",
+      "release_sha256": "a461486a9065e06035adf22f9c5f13447ed2237f61866d369e72686e42532f79",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8d_holdout.csv",
+      "source_sha256": "10b9eb56e97b2f9cea59c03770f86d85d0f6013ed856b528b59943b54ddefa74",
+      "release_sha256": "10b9eb56e97b2f9cea59c03770f86d85d0f6013ed856b528b59943b54ddefa74",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8d_strict.csv",
+      "source_sha256": "c10ee73addc289fa77f6cea13b7fff02f62cbabc0741fc6c43e7d0f82d07d314",
+      "release_sha256": "c10ee73addc289fa77f6cea13b7fff02f62cbabc0741fc6c43e7d0f82d07d314",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8e_discovery.csv",
+      "source_sha256": "43a55a29aa2c9a76c53f51ac536ac8f33baa683e55f0dba6adf07b7096b70cf8",
+      "release_sha256": "43a55a29aa2c9a76c53f51ac536ac8f33baa683e55f0dba6adf07b7096b70cf8",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8e_holdout.csv",
+      "source_sha256": "bd869f95dec6412c584a645f5ea0b7b606e29dafe19af1a9548d9abcfa2beedf",
+      "release_sha256": "bd869f95dec6412c584a645f5ea0b7b606e29dafe19af1a9548d9abcfa2beedf",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8e_strict.csv",
+      "source_sha256": "26677a7943f26161e7ffa5eafd83b66eb986e53a02a8321a89771262ca306c51",
+      "release_sha256": "26677a7943f26161e7ffa5eafd83b66eb986e53a02a8321a89771262ca306c51",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8f_discovery.csv",
+      "source_sha256": "46c0698e9772c3a100c57a246b1669787242a2cc60de5f5555aa1b488a33adc9",
+      "release_sha256": "46c0698e9772c3a100c57a246b1669787242a2cc60de5f5555aa1b488a33adc9",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8f_holdout.csv",
+      "source_sha256": "8675ef31c7c5caa33fa5c98e0803c59e815d7e521c4fb892340535e6d3c108ca",
+      "release_sha256": "8675ef31c7c5caa33fa5c98e0803c59e815d7e521c4fb892340535e6d3c108ca",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/supplementary/FigS8f_strict.csv",
+      "source_sha256": "be7d3c1b9cdf76d72b484525bae9693beb6b01de7883ea560298ef5daa383107",
+      "release_sha256": "be7d3c1b9cdf76d72b484525bae9693beb6b01de7883ea560298ef5daa383107",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/tier_adjusted_means.csv",
+      "source_sha256": "bdceca2186e5f5b96062fd1a3d98942623b2217ad236802e89cb33cd8303d77f",
+      "release_sha256": "bdceca2186e5f5b96062fd1a3d98942623b2217ad236802e89cb33cd8303d77f",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/tier_distances.csv",
+      "source_sha256": "62be5f944f03380333c9d6e0e0f95bb241fb545f693b25fb9dba1513c8b1fbad",
+      "release_sha256": "62be5f944f03380333c9d6e0e0f95bb241fb545f693b25fb9dba1513c8b1fbad",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/two_component_regional.csv",
+      "source_sha256": "0a7bef436b307a36969509a42e474a792dd420f8910ccffd7f07b6d15dfa9bb5",
+      "release_sha256": "0a7bef436b307a36969509a42e474a792dd420f8910ccffd7f07b6d15dfa9bb5",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/revision/extensions/source_data/type_reliability.csv",
+      "source_sha256": "96855beba1a54f1c98d26ac1a36615711b2865074ea3de664e1023e9119fdd33",
+      "release_sha256": "96855beba1a54f1c98d26ac1a36615711b2865074ea3de664e1023e9119fdd33",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/baseline/tables/study2/discovery/standardization.json",
+      "source_sha256": "ecb24c9519ac3e5c0efb230b33dca592a667a4a480b5d4fd7899cf8084601eef",
+      "release_sha256": "ecb24c9519ac3e5c0efb230b33dca592a667a4a480b5d4fd7899cf8084601eef",
+      "kind": "scaling_parameters"
+    },
+    {
+      "file": "analysis/revision/inputs/plotting/regional_means_natural.csv",
+      "source_sha256": "52abb71f5234f90eb980a579d2be895b02b875e4ea77566e6e11d9948bff9a88",
+      "release_sha256": "52abb71f5234f90eb980a579d2be895b02b875e4ea77566e6e11d9948bff9a88",
+      "kind": "aggregate_data"
+    },
+    {
+      "file": "analysis/inputs/context/tables/context_score_transformation_audit.csv",
+      "source_sha256": "b0ac6c91b12696c55e4ef0b88b8c2424e1e69a61b1a63e33a1e7e609a529bde3",
+      "release_sha256": "b0ac6c91b12696c55e4ef0b88b8c2424e1e69a61b1a63e33a1e7e609a529bde3",
+      "kind": "scaling_parameters"
+    },
+    {
+      "file": "analysis/timeline/parameters/maintenance_scale_primary.json",
+      "source_sha256": "89bb5446593246550ab35a89f8763ac8b264cf1d602547fe084cf16bba541c7a",
+      "release_sha256": "89bb5446593246550ab35a89f8763ac8b264cf1d602547fe084cf16bba541c7a",
+      "kind": "scaling_parameters"
+    }
+  ]
+}

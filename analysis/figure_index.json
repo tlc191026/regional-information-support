@@ -1,0 +1,16 @@
+{
+  "main": {
+    "1": "fig1.py",
+    "2": "fig2.py",
+    "3": "fig3.py",
+    "4": "fig4.py",
+    "5": "fig5.py"
+  },
+  "supplementary": {
+    "S1-S6": "supp_a.py",
+    "S7-S11": "supp_b.py"
+  },
+  "script_directory": "analysis/revision/extensions/code/figures",
+  "data_directory": "analysis/revision/extensions/source_data",
+  "notes": "Historical source-data filenames are retained; scripts define current panel mappings."
+}

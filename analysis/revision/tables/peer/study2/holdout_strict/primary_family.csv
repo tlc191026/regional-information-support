@@ -1,0 +1,7 @@
+outcome,test,b_std,ci_low_std,ci_high_std,p,tost_equivalent,beyond_sesoi,wald,p_holm
+control_wards,pooled teammate-minus-opponent (ORIV),-0.010628199100175586,-0.012776412074331868,-0.008479986126019304,3.10424417486235e-22,True,False,,1.5521220874311748e-21
+control_wards,"regional heterogeneity of teammate-minus-opponent (Wald, 2 df)",,,,0.8641157755454423,,,0.29209703936263504,1.0
+control_wards,pooled teammate slope (ORIV),-0.004786764421697906,-0.006500406447285151,-0.003073122396110662,4.377017102292395e-08,True,False,,1.750806840916958e-07
+wards_killed,pooled teammate-minus-opponent (ORIV),-0.03769146678023746,-0.040273862263837494,-0.03510907129663742,5.456503997721908e-180,False,True,,3.273902398633145e-179
+wards_killed,"regional heterogeneity of teammate-minus-opponent (Wald, 2 df)",,,,0.6270154144260607,,,0.9335683084796562,1.0
+wards_killed,pooled teammate slope (ORIV),-0.0018333218917610927,-0.004134075699793744,0.00046743191627155855,0.11833576625289847,True,False,,0.3550072987586954

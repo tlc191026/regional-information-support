@@ -1,0 +1,13 @@
+sample,listing_region,stage,n_links,n_distinct_matches,n_match_server_differs
+holdout,EUW1,outcome,151069,146963,78
+holdout,EUW1,type,159748,154768,96
+holdout,KR,outcome,161305,156671,0
+holdout,KR,type,171140,165552,0
+holdout,NA1,outcome,131497,124338,24
+holdout,NA1,type,152123,140773,30
+strict,EUW1,outcome,110215,107783,75
+strict,EUW1,type,114664,112047,98
+strict,KR,outcome,117131,114445,0
+strict,KR,type,121817,118931,0
+strict,NA1,outcome,54802,53143,26
+strict,NA1,type,57169,55374,28

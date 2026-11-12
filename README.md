@@ -1,75 +1,37 @@
-# Regional information support
+# Information work in temporary digital teams
 
-Analysis code and aggregate source data for *Regional variation in information maintenance and team signalling in online cooperation*.
-The study examines information practices among 126,000 League of Legends players across North American, Western European and Korean servers, covering 2,240,354 unique matches.
+Analysis code and aggregate source data for **Beyond usage intensity: How temporary digital teams organise information work**.
 
-## Getting started
+The study examines regional configurations of information maintenance and team signalling, their distribution across roles and competitive tiers, associations among participants, and early maintenance in relation to the next contested objective. The discovery sample comprises 126,000 focal players and 2,240,354 unique matches from the Korea, Western Europe and North America sampling rosters.
 
-Use Python 3.14 and install the analysis packages from the repository root:
+## Current release
 
-```bash
-python -m pip install -r requirements.txt
-```
-
-Recreate the four main figures and seven supplementary figures from the included data:
+The November 2026 analysis package corresponds to manuscript **V15** and its supplementary information. Start with [`analysis/README.md`](analysis/README.md) for the research-question map, workflow order and interpretation of the outputs.
 
 ```bash
-python code/render_figures.py --output-dir outputs/figures
+python -m pip install -r analysis/requirements.txt
+python analysis/run.py --stage figures --execute
 ```
 
-The command saves PNG, PDF, SVG and 600 dpi TIFF files under `outputs/figures/main` and `outputs/figures/supplementary`.
-It also records the input files and their checksums. Choose a new output directory when repeating a run.
-The figures use Arial; font substitution on other systems may change text placement.
+This command reconstructs the five main figures and eleven supplementary figures from the included aggregate estimates. Outputs are written to `outputs/current_figures/`. Panel descriptions are provided in the manuscript captions rather than repeated above the plots.
 
-Run the event-parser, time-window and statistical utility checks:
-
-```bash
-python code/analysis/run_analysis.py --stage tests --output-root outputs/tests
-```
-
-These checks use synthetic fixtures included in the code and require no API credentials or match records.
-
-## Repository contents
-
-| Location | Contents |
-|---|---|
-| [`code/analysis`](code/analysis) | Sample construction, behavioural scoring, regional and contextual comparisons, timeline analyses and sensitivity checks |
-| [`code/figures`](code/figures) | Figure layouts, shared visual settings and source-data mappings |
-| [`code/validation`](code/validation) | Additional checks of model specification, temporal proximity, bootstrap approximation and participant overlap |
-| [`data`](data) | Aggregate source data for 11 figures, the main table and 74 supplementary subtables |
-| [`docs`](docs) | Analysis instructions and input specifications |
-| [`requirements.txt`](requirements.txt) | Pinned Python dependencies |
+| Directory | Contents |
+| --- | --- |
+| [`analysis/baseline/`](analysis/baseline/) | Sampling, extraction, scoring and initial analysis routines |
+| [`analysis/revision/code/`](analysis/revision/code/) | Common-scale peer analyses and map-adjusted objective models |
+| [`analysis/revision/theory/`](analysis/revision/theory/) | Regional configuration and role-pair analyses |
+| [`analysis/revision/extensions/`](analysis/revision/extensions/) | Cross-activity, whole-team and time-window analyses, current figures and aggregate source data |
+| [`analysis/timeline/`](analysis/timeline/) and [`analysis/minute_timeline/`](analysis/minute_timeline/) | Timestamped event parsing |
+| [`code/`](code/), [`data/`](data/), [`docs/`](docs/) | September release, retained for earlier analyses and traceability |
 
 ## Data and reproducibility
 
-The public data contain unrounded estimates, variable definitions, figure captions and table notes.
-They correspond to the manuscript and Supplementary Information dated 23 September 2026.
+The repository distributes analysis code, aggregate results, plotting data and variable documentation. Individual-level Riot API records, player identifiers and match identifiers are not included. Figure reconstruction uses the public aggregates. Full model re-estimation requires the individual-level inputs described in [`analysis/INPUTS.md`](analysis/INPUTS.md).
 
-- [Data guide and import examples](data/README.md)
-- [Figure index](data/metadata/figure_index.csv)
-- [Table index](data/metadata/table_index.csv)
-- [Variable dictionary](data/dictionaries/variables.csv)
-- [Record-level analysis guide](docs/analysis.md)
-- [Additional validation guide](docs/validation.md)
+The two holdouts are re-estimation samples from the same collection; the strict holdout is nested within the player holdout. Supplementary prediction results concern the first post-cutoff neutral objective, not the final match winner. Regional configuration, peer and timeline analyses use different observational units; their counts and scales are recorded with the outputs.
 
-The included data support reconstruction of the reported summaries and figures.
-Refitting the statistical models requires the underlying player-level and match-level records, which are not included in this repository.
-The [analysis guide](docs/analysis.md) identifies the required inputs and provides commands for researchers who have access to them.
-Redistribution of data obtained through the Riot Games API is governed by [Riot Games' API terms](https://developer.riotgames.com/terms).
+[`analysis/provenance.json`](analysis/provenance.json) records source and release hashes. [`analysis/release_checks.json`](analysis/release_checks.json) records the packaging checks. Earlier files and their Git history remain available; the [September release guide](docs/september_release.md) documents their original structure.
 
-The fixed sample includes 2,520,000 player–match records. Six records with nonstandard positions are excluded from the regional and contextual regressions.
-The primary timeline outcome analysis includes 2,210,921 matches; sample sizes for other analyses are given in the data guide and table notes.
+## Licence
 
-When reading CSV files, preserve `NA` as the North America label and read game versions as strings.
-For example, versions `15.1` and `15.10` are distinct.
-
-## Software and licence
-
-The code was tested with Python 3.14.3 on Windows. The analysis uses CPU computation and does not require a GPU.
-Record-level models may require substantial memory because they analyse several million observations and repeated resamples.
-
-The source code is distributed under the [MIT licence](LICENSE).
-This licence does not grant rights to redistribute the underlying Riot Games API records.
-
-This research is not endorsed by Riot Games and does not represent its views.
-Riot Games, League of Legends and associated properties are trademarks or registered trademarks of Riot Games, Inc.
+Code is available under the [MIT licence](LICENSE). Data-access and reuse conditions for Riot Games records remain those of the source platform. The repository does not include an API key or provide access to restricted source records.

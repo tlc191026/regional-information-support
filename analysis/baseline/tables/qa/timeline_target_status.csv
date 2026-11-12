@@ -1,0 +1,7 @@
+sample,status,matches
+fixed,downloaded,2223709
+fixed,failed,9247
+fixed,not_found,7398
+holdout,downloaded,849651
+holdout,failed,2482
+holdout,not_found,2352
